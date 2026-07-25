@@ -52,7 +52,7 @@ first-order tactical factor.
    git add briefs/ docs/ && git commit -m "Brief: YYYY-MM-DD" && git push
    ```
    `publish.py` rebuilds the whole static site under `docs/` (served from
-   `main` `/docs` at <https://jstockdi.github.io/starling/>). Days with a
+   `main` `/docs` at <https://jstockdi.github.io/bristol-harbor-sailing-report/>). Days with a
    `.md` use its prose; days with only JSON are auto-summarised.
 7. **Verify after the race** (a few hours past the finish, once CO-OPS has logged
    the window):

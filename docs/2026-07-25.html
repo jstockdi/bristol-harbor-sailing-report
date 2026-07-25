@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#1f5f8b">
+<meta name="theme-color" content="#16a085">
 <title>Sat 25 Jul 2026 · Daysail</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;450;500;600;700&display=swap" rel="stylesheet"><style>
 :root{
   --ink:#132534;        /* near-black navy body text */
@@ -140,8 +140,23 @@ footer strong{color:var(--sea);font-weight:600}
 footer code{background:var(--line-2);padding:.08rem .3rem;border-radius:4px;
   font-size:.92em;color:var(--sea)}
 @media(min-width:600px){.wrap{padding-top:1.7rem}}
+
+/* --- daily daysail report: seafoam-coastal theme (kind != "race") --- */
+/* Overriding the custom props on <body> re-colours everything that reads them,
+   so the race brief keeps the deep-navy/kelp :root palette and the daily
+   daysail report gets teal / seafoam / warm sand. */
+body.theme-daily{
+  --ink:#163029;--deep:#0e7c66;--sea:#147d6a;--tide:#48c9a9;
+  --green:#c98a2e;--green-d:#a8741f;--paper:#f3faf7;
+  --line:#d8ebe4;--line-2:#eaf5f0;--mist:#5f7a72;--wash:#eaf6f0;
+  --band:linear-gradient(152deg,#0e7c66 0%,#16a085 48%,#e6b566 100%);
+  --shadow:0 14px 34px -22px rgba(14,124,102,.5);
+  background:var(--paper)}
+/* index card cue so the two report types read apart at a glance */
+.entry.kind-daily::before{background:linear-gradient(152deg,#0e7c66,#16a085 48%,#e6b566)}
+.entry.kind-daily .meta{color:#0e7c66}
 </style></head>
-<body><div class="wrap"><a class="back" href="index.html">← All briefs</a><article><p class="kicker">Bristol Harbor · Rhode Island</p><h1>Sat 25 Jul 2026 · Daysail</h1><p class="meta">Daysail 10:00–18:00</p><p class="headline">A lovely, mellow sunny day for a family sail — light morning breeze, best from early afternoon on.</p><h2>The day</h2>
+<body class="theme-daily"><div class="wrap"><a class="back" href="index.html">← All briefs</a><article><p class="kicker">Bristol Harbor · Rhode Island</p><h1>Sat 25 Jul 2026 · Daysail</h1><p class="meta">Daysail 10:00–18:00</p><p class="headline">A lovely, mellow sunny day for a family sail — light morning breeze, best from early afternoon on.</p><h2>The day</h2>
 <p>This is a proper feel-good day on the water — wall-to-wall sun, a comfortable low-to-mid-70s, and no weather to fret about. The breeze is on the gentle side, so think easy family daysail rather than a spirited hike-out romp: enough to fill the sails and ghost pleasantly around the harbor and out toward Hog Island, without ever getting your heart rate up. If you want a relaxing afternoon with kids, guests, or a picnic aboard, today delivers.</p>
 <h2>Wind</h2>
 <p>It's genuinely light this morning — the real anemometers are reading only a couple of knots (Newport ~3 kt, Conimicut barely 1–2 kt), so if you head out at 10 you may be drifting for a bit. The good news is the classic Bristol sea breeze should build through late morning and into the afternoon, filling from the <strong>S/SSW</strong> up the East Passage and swinging around from the north through the morning to settle into that southerly by midday. Expect a comfortable <strong>6–8 kt</strong> once it's established, with occasional puffs to around 12 — nice, easy sailing that never needs a reef.</p>
@@ -150,5 +165,5 @@ footer code{background:var(--line-2);padding:.08rem .3rem;border-radius:4px;
 <p>Low water lands at <strong>10:42 (just 0.7 ft)</strong> — quite low — so if you're heading out first thing, give the shallow harbor edges and any skinny spots near the shoreline a wide berth. From there the tide floods all afternoon up to a <strong>3.4 ft high at 18:06</strong>, so depth is on your side as the day goes on. Current is gentle in the harbor: it's a light ebb (seaward) through late morning, goes slack at the mouth around <strong>11:05</strong>, then floods gently up-bay through the afternoon. Nothing dramatic — the strongest flow lives out in the <strong>East Passage</strong> channel, where it runs a bit harder, but with today's soft breeze you won't see meaningful wind-against-tide chop. Smooth water all around.</p>
 <h2>Good to know</h2>
 <p>Just about ideal comfort: <strong>sunny and clear, 71–77°F, zero rain chance</strong>, no thunderstorms in the picture. The main thing to pack for is <strong>sun</strong> — hats, sunscreen, water — because there's nothing to hide behind on a clear day like this. Head out late morning if you don't mind drifting for the breeze to build, or wait until around lunchtime for a livelier sail, and aim to be back before the light softens in the evening. Conditions stay gentle enough that this is an easy, low-stress day for less-experienced crew — kids in life jackets, everyone relaxed. Enjoy it.</p><div class="figs"><figure class="fig-tide"><img src="img/2026-07-25_tide.png" alt="tide chart for 2026-07-25"><figcaption><span class="dot"></span><strong>Tide</strong> · 2026-07-25</figcaption></figure><figure class="fig-wind"><img src="img/2026-07-25_wind.png" alt="wind chart for 2026-07-25"><figcaption><span class="dot"></span><strong>Wind</strong> · 2026-07-25</figcaption></figure><figure class="fig-current"><img src="img/2026-07-25_current.png" alt="current chart for 2026-07-25"><figcaption><span class="dot"></span><strong>Current</strong> · 2026-07-25</figcaption></figure></div></article>
-<footer><strong>Bristol Harbor Race Briefs</strong> · data from NOAA CO-OPS, Open-Meteo, NWS &amp; NDBC · built by the <code>race-brief</code> skill</footer>
+<footer><strong>Bristol Harbor Sailing Report</strong> · data from NOAA CO-OPS, Open-Meteo, NWS &amp; NDBC · built by the <code>race-brief</code> skill</footer>
 </div></body></html>

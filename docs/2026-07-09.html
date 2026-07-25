@@ -140,7 +140,22 @@ footer strong{color:var(--sea);font-weight:600}
 footer code{background:var(--line-2);padding:.08rem .3rem;border-radius:4px;
   font-size:.92em;color:var(--sea)}
 @media(min-width:600px){.wrap{padding-top:1.7rem}}
+
+/* --- daily daysail report: seafoam-coastal theme (kind != "race") --- */
+/* Overriding the custom props on <body> re-colours everything that reads them,
+   so the race brief keeps the deep-navy/kelp :root palette and the daily
+   daysail report gets teal / seafoam / warm sand. */
+body.theme-daily{
+  --ink:#163029;--deep:#0e7c66;--sea:#147d6a;--tide:#48c9a9;
+  --green:#c98a2e;--green-d:#a8741f;--paper:#f3faf7;
+  --line:#d8ebe4;--line-2:#eaf5f0;--mist:#5f7a72;--wash:#eaf6f0;
+  --band:linear-gradient(152deg,#0e7c66 0%,#16a085 48%,#e6b566 100%);
+  --shadow:0 14px 34px -22px rgba(14,124,102,.5);
+  background:var(--paper)}
+/* index card cue so the two report types read apart at a glance */
+.entry.kind-daily::before{background:linear-gradient(152deg,#0e7c66,#16a085 48%,#e6b566)}
+.entry.kind-daily .meta{color:#0e7c66}
 </style></head>
-<body><div class="wrap"><a class="back" href="index.html">← All briefs</a><article><p class="kicker">Bristol Harbor · Rhode Island</p><h1>Thursday 9 July 2026</h1><p class="meta">Race window 18:00–20:00</p><p class="headline">9–10 kt (gust 19), from 197°→196°</p><p><em>Auto-summarised from the fetch data — no hand-written brief for this day.</em></p><div class="tablewrap"><table><tr><th>Wind</th><td>9–10 kt (gust 19), from 197°→196°</td></tr><tr><th>Tide</th><td>HW 3.1 ft @ 03:08; LW 0.2 ft @ 08:34; HW 4.0 ft @ 15:41; LW 0.5 ft @ 22:14</td></tr><tr><th>Current — Hog Island, NW of (harbor mouth)</th><td>ebb -0.34 kt @ 19:03</td></tr><tr><th>Current — Dyer Island, W of (East Passage)</th><td>ebb -1.02 kt @ 18:33</td></tr></table></div><div class="figs"><figure class="fig-tide"><img src="img/2026-07-09_tide.png" alt="tide chart for 2026-07-09"><figcaption><span class="dot"></span><strong>Tide</strong> · 2026-07-09</figcaption></figure><figure class="fig-wind"><img src="img/2026-07-09_wind.png" alt="wind chart for 2026-07-09"><figcaption><span class="dot"></span><strong>Wind</strong> · 2026-07-09</figcaption></figure><figure class="fig-current"><img src="img/2026-07-09_current.png" alt="current chart for 2026-07-09"><figcaption><span class="dot"></span><strong>Current</strong> · 2026-07-09</figcaption></figure></div></article>
-<footer><strong>Bristol Harbor Race Briefs</strong> · data from NOAA CO-OPS, Open-Meteo, NWS &amp; NDBC · built by the <code>race-brief</code> skill</footer>
+<body class=""><div class="wrap"><a class="back" href="index.html">← All briefs</a><article><p class="kicker">Bristol Harbor · Rhode Island</p><h1>Thursday 9 July 2026</h1><p class="meta">Race window 18:00–20:00</p><p class="headline">9–10 kt (gust 19), from 197°→196°</p><p><em>Auto-summarised from the fetch data — no hand-written brief for this day.</em></p><div class="tablewrap"><table><tr><th>Wind</th><td>9–10 kt (gust 19), from 197°→196°</td></tr><tr><th>Tide</th><td>HW 3.1 ft @ 03:08; LW 0.2 ft @ 08:34; HW 4.0 ft @ 15:41; LW 0.5 ft @ 22:14</td></tr><tr><th>Current — Hog Island, NW of (harbor mouth)</th><td>ebb -0.34 kt @ 19:03</td></tr><tr><th>Current — Dyer Island, W of (East Passage)</th><td>ebb -1.02 kt @ 18:33</td></tr></table></div><div class="figs"><figure class="fig-tide"><img src="img/2026-07-09_tide.png" alt="tide chart for 2026-07-09"><figcaption><span class="dot"></span><strong>Tide</strong> · 2026-07-09</figcaption></figure><figure class="fig-wind"><img src="img/2026-07-09_wind.png" alt="wind chart for 2026-07-09"><figcaption><span class="dot"></span><strong>Wind</strong> · 2026-07-09</figcaption></figure><figure class="fig-current"><img src="img/2026-07-09_current.png" alt="current chart for 2026-07-09"><figcaption><span class="dot"></span><strong>Current</strong> · 2026-07-09</figcaption></figure></div></article>
+<footer><strong>Bristol Harbor Sailing Report</strong> · data from NOAA CO-OPS, Open-Meteo, NWS &amp; NDBC · built by the <code>race-brief</code> skill</footer>
 </div></body></html>

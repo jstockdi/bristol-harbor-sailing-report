@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Build the Bristol Harbor race-brief journal (a static GitHub Pages site).
+"""Build the Bristol Harbor Sailing Report journal (a static GitHub Pages site).
 
 Scans every brief in ``briefs/`` and emits a self-contained static site under
-``docs/`` — one page per race day plus a reverse-chronological index. GitHub
+``docs/`` — one page per report day plus a reverse-chronological index. Race
+briefs render in the deep-navy theme, daily daysail reports in seafoam. GitHub
 Pages serves it from ``main`` /docs; a ``.nojekyll`` marker keeps the raw HTML
 untouched (no Jekyll build).
 
@@ -178,6 +179,21 @@ footer strong{color:var(--sea);font-weight:600}
 footer code{background:var(--line-2);padding:.08rem .3rem;border-radius:4px;
   font-size:.92em;color:var(--sea)}
 @media(min-width:600px){.wrap{padding-top:1.7rem}}
+
+/* --- daily daysail report: seafoam-coastal theme (kind != "race") --- */
+/* Overriding the custom props on <body> re-colours everything that reads them,
+   so the race brief keeps the deep-navy/kelp :root palette and the daily
+   daysail report gets teal / seafoam / warm sand. */
+body.theme-daily{
+  --ink:#163029;--deep:#0e7c66;--sea:#147d6a;--tide:#48c9a9;
+  --green:#c98a2e;--green-d:#a8741f;--paper:#f3faf7;
+  --line:#d8ebe4;--line-2:#eaf5f0;--mist:#5f7a72;--wash:#eaf6f0;
+  --band:linear-gradient(152deg,#0e7c66 0%,#16a085 48%,#e6b566 100%);
+  --shadow:0 14px 34px -22px rgba(14,124,102,.5);
+  background:var(--paper)}
+/* index card cue so the two report types read apart at a glance */
+.entry.kind-daily::before{background:linear-gradient(152deg,#0e7c66,#16a085 48%,#e6b566)}
+.entry.kind-daily .meta{color:#0e7c66}
 """
 
 # Inline sailboat roundel for the index hero (self-contained, on-palette, white
@@ -195,10 +211,10 @@ MARK = (
 PAGE = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#1f5f8b">
+<meta name="theme-color" content="{theme_color}">
 <title>{title}</title>{fonts}<style>{css}</style></head>
-<body><div class="wrap">{body}
-<footer><strong>Bristol Harbor Race Briefs</strong> · data from NOAA CO-OPS, Open-Meteo, NWS &amp; NDBC · built by the <code>race-brief</code> skill</footer>
+<body class="{body_class}"><div class="wrap">{body}
+<footer><strong>Bristol Harbor Sailing Report</strong> · data from NOAA CO-OPS, Open-Meteo, NWS &amp; NDBC · built by the <code>race-brief</code> skill</footer>
 </div></body></html>"""
 
 
@@ -282,6 +298,9 @@ def build_entry(json_path):
         headline, body_md, extra_tbl = auto_summary(data)
         body_html = md.markdown(body_md, extensions=["tables", "fenced_code", "sane_lists"])
     wlabel = "Daysail" if kind != "race" else "Race window"
+    is_daily = kind != "race"
+    body_class = "theme-daily" if is_daily else ""
+    theme_color = "#16a085" if is_daily else "#1f5f8b"
 
     imgs = entry_images(date)
     figs = "".join(
@@ -300,10 +319,12 @@ def build_entry(json_path):
         + body_html + extra_tbl
         + f'<div class="figs">{figs}</div></article>'
     )
-    (DOCS / f"{date}.html").write_text(PAGE.format(title=esc(title), fonts=FONTS, css=CSS, body=body))
+    (DOCS / f"{date}.html").write_text(PAGE.format(
+        title=esc(title), fonts=FONTS, css=CSS, body=body,
+        body_class=body_class, theme_color=theme_color))
     return {"date": date, "title": title, "headline": headline,
             "window": f"{data['window']['start']}–{data['window']['end']}",
-            "wlabel": wlabel, "thumbs": imgs}
+            "wlabel": wlabel, "kind": kind, "thumbs": imgs}
 
 
 def build_index(entries):
@@ -311,8 +332,9 @@ def build_index(entries):
     cards = []
     for e in entries:
         thumbs = "".join(f'<img src="{fn}" alt="{layer}">' for layer, fn in e["thumbs"])
+        kind_cls = " kind-daily" if e.get("kind", "race") != "race" else ""
         cards.append(
-            f'<div class="entry">'
+            f'<div class="entry{kind_cls}">'
             f'<h2><a href="{e["date"]}.html">{esc(e["title"])}</a></h2>'
             f'<p class="meta">{e.get("wlabel", "Race window")} {esc(e["window"])}</p>'
             + (f'<p class="headline">{esc(e["headline"])}</p>' if e["headline"] else "")
@@ -322,13 +344,16 @@ def build_index(entries):
     body = (
         '<header class="site">' + MARK
         + '<p class="kicker">Bristol Harbor · Rhode Island</p>'
-        '<h1>Race Briefs</h1>'
-        '<p class="site-sub">Hyper-local wind, tide &amp; tidal-current briefs — from the '
-        'inner harbor out around Hog Island &amp; Poppasquash Point into the East Passage.</p>'
+        '<h1>Sailing Report</h1>'
+        '<p class="site-sub">Hyper-local wind, tide &amp; tidal-current reports — daily '
+        'daysail forecasts and Wednesday race briefs — from the inner harbor out around '
+        'Hog Island &amp; Poppasquash Point into the East Passage.</p>'
         '</header>'
-        + ("".join(cards) or "<p>No briefs yet.</p>")
+        + ("".join(cards) or "<p>No reports yet.</p>")
     )
-    (DOCS / "index.html").write_text(PAGE.format(title="Bristol Harbor Race Briefs", fonts=FONTS, css=CSS, body=body))
+    (DOCS / "index.html").write_text(PAGE.format(
+        title="Bristol Harbor Sailing Report", fonts=FONTS, css=CSS, body=body,
+        body_class="", theme_color="#1f5f8b"))
 
 
 def main():

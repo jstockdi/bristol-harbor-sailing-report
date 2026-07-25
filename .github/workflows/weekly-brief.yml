@@ -32,7 +32,7 @@ jobs:
       - name: Generate and publish the brief
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          NWS_USER_AGENT: "starling-race-brief-ci"
+          NWS_USER_AGENT: "bristol-harbor-sailing-report-ci"
         run: python .claude/skills/race-brief/weekly_brief.py
 
       - name: Commit and push

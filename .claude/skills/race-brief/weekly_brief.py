@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Generate and publish a Bristol Harbor brief — race (default) or weekend daysail.
+"""Generate and publish a Bristol Harbor report — race (default) or daily daysail.
 
 Runs the full pipeline unattended (for the GitHub Actions jobs). RACE_KIND picks
-the product: `race` (Wed 18:00-20:00 tactical brief) or `weekend` (Sat/Sun
-10:00-18:00 friendly daysail forecast).
+the product: `race` (Wed 18:00-20:00 tactical brief) or `daily` (every-day
+10:00-18:00 friendly daysail forecast). `weekend` is accepted as an alias for
+`daily` so older callers keep working.
 
   1. Pick the target day — today by default (override with RACE_DATE), and the
      window default per kind (override with RACE_START / RACE_END).
@@ -19,7 +20,7 @@ Never pass an email to fetch.py on the command line — a PII guard blocks it; s
 a non-email NWS_USER_AGENT instead (done here).
 
 Usage: python weekly_brief.py                          # race, today 18:00-20:00
-       RACE_KIND=weekend python weekly_brief.py         # daysail, today 10:00-18:00
+       RACE_KIND=daily python weekly_brief.py           # daysail, today 10:00-18:00
        RACE_DATE=2026-07-25 python weekly_brief.py
 """
 import datetime as dt
@@ -140,8 +141,8 @@ Hard rules:
 JSON:
 """
 
-WEEKEND_PROMPT = """\
-Write a friendly weekend DAYSAIL forecast (Markdown) for recreational sailing out
+DAILY_PROMPT = """\
+Write a friendly DAYSAIL forecast (Markdown) for recreational sailing out
 of Bristol Harbor — not a race brief. Use the local knowledge in the system prompt
 (sea-breeze behaviour, the Poppasquash lee, where current runs), but drop all race
 tactics: no course archetypes, no start-line or leg calls, no "favoured side".
@@ -189,7 +190,9 @@ def _ensure_front_matter(md, data, kind):
     return md
 
 
-PROMPTS = {"race": RACE_PROMPT, "weekend": WEEKEND_PROMPT}
+PROMPTS = {"race": RACE_PROMPT, "daily": DAILY_PROMPT}
+# Old callers may still pass RACE_KIND=weekend; treat it as the daily daysail report.
+KIND_ALIASES = {"weekend": "daily"}
 
 
 def write_brief(data, md_path, kind="race"):
@@ -214,17 +217,18 @@ def write_brief(data, md_path, kind="race"):
 
 
 # Default daysailing window per kind (override with RACE_START / RACE_END).
-WINDOWS = {"race": ("18:00", "20:00"), "weekend": ("10:00", "18:00")}
+WINDOWS = {"race": ("18:00", "20:00"), "daily": ("10:00", "18:00")}
 
 
 def main():
     kind = os.environ.get("RACE_KIND", "race")
+    kind = KIND_ALIASES.get(kind, kind)
     if kind not in PROMPTS:
         raise SystemExit(f"unknown kind {kind!r} (expected {list(PROMPTS)})")
     date = os.environ.get("RACE_DATE") or dt.date.today().isoformat()
     start = os.environ.get("RACE_START", WINDOWS[kind][0])
     end = os.environ.get("RACE_END", WINDOWS[kind][1])
-    ua = os.environ.get("NWS_USER_AGENT", "starling-race-brief-cli")
+    ua = os.environ.get("NWS_USER_AGENT", "bristol-harbor-sailing-report-cli")
     BRIEFS.mkdir(parents=True, exist_ok=True)
     json_path = BRIEFS / f"{date}.json"
 

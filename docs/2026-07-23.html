@@ -140,8 +140,23 @@ footer strong{color:var(--sea);font-weight:600}
 footer code{background:var(--line-2);padding:.08rem .3rem;border-radius:4px;
   font-size:.92em;color:var(--sea)}
 @media(min-width:600px){.wrap{padding-top:1.7rem}}
+
+/* --- daily daysail report: seafoam-coastal theme (kind != "race") --- */
+/* Overriding the custom props on <body> re-colours everything that reads them,
+   so the race brief keeps the deep-navy/kelp :root palette and the daily
+   daysail report gets teal / seafoam / warm sand. */
+body.theme-daily{
+  --ink:#163029;--deep:#0e7c66;--sea:#147d6a;--tide:#48c9a9;
+  --green:#c98a2e;--green-d:#a8741f;--paper:#f3faf7;
+  --line:#d8ebe4;--line-2:#eaf5f0;--mist:#5f7a72;--wash:#eaf6f0;
+  --band:linear-gradient(152deg,#0e7c66 0%,#16a085 48%,#e6b566 100%);
+  --shadow:0 14px 34px -22px rgba(14,124,102,.5);
+  background:var(--paper)}
+/* index card cue so the two report types read apart at a glance */
+.entry.kind-daily::before{background:linear-gradient(152deg,#0e7c66,#16a085 48%,#e6b566)}
+.entry.kind-daily .meta{color:#0e7c66}
 </style></head>
-<body><div class="wrap"><a class="back" href="index.html">← All briefs</a><article><p class="kicker">Bristol Harbor · Rhode Island</p><h1>Thu 23 Jul 2026 · 18:00–20:00</h1><p class="meta">Race window 18:00–20:00</p><p class="headline">Light-moderate S/SSW evening sea breeze, 3 kt stronger seaward; building ebb sets SSW down-bay against the wind through the whole window — falling tide, no shallow worry.</p><h2>Wind</h2>
+<body class=""><div class="wrap"><a class="back" href="index.html">← All briefs</a><article><p class="kicker">Bristol Harbor · Rhode Island</p><h1>Thu 23 Jul 2026 · 18:00–20:00</h1><p class="meta">Race window 18:00–20:00</p><p class="headline">Light-moderate S/SSW evening sea breeze, 3 kt stronger seaward; building ebb sets SSW down-bay against the wind through the whole window — falling tide, no shallow worry.</p><h2>Wind</h2>
 <p>A soft-to-moderate southerly sea breeze — <strong>S/SSW, averaging 6–9 kt with gusts to 13–15</strong>. The story is the seaward gradient: it builds cleanly from the inner harbor out. Inner Bristol Harbor runs ~6 kt (186→166, backing a touch toward SSE), Poppasquash Point ~7.5 kt, the Hog Island mouth ~7 kt, and the <strong>East Passage / off Hope Island the strongest at ~9 kt</strong> from ~180–185. That's roughly <strong>3 kt more pressure to the S/seaward</strong> — the classic sea-breeze signature funnelling up the Passage over Hog Island.</p>
 <p>Confidence is high: model spread is tiny at every fix (0.0–1.6 kt), and <code>wind_check</code> has obs and model within 1% (ratio 0.99). The live picture backs it — Newport at the Passage mouth has clocked from the N through to <strong>SW (218°) at 11–13 kt</strong> over the last two hours, exactly a sea breeze filling in; Conimicut up-bay reads W at ~7 kt. Expect the breeze in the harbor to be the lighter, slightly more backed (SSE) end of the range, veering back toward S as you clear toward open water.</p>
 <h2>Current</h2>
@@ -162,5 +177,5 @@ footer code{background:var(--line-2);padding:.08rem .3rem;border-radius:4px;
 - <strong>Around Hog Island:</strong> the set reverses relative to each leg — fair and breezy running S/SW past the island, foul beating back N; hug the tips' shore edges on the up-bay legs.
 - <strong>Out-and-back (light air):</strong> pressure dominates — get S toward the Passage breeze; the fair ebb helps you out and you'll want the extra knots to punch the foul current on the way home.</p>
 <p>See <code>2026-07-23_wind.png</code>, <code>2026-07-23_current.png</code>, and <code>2026-07-23_tide.png</code>.</p><div class="figs"><figure class="fig-tide"><img src="img/2026-07-23_tide.png" alt="tide chart for 2026-07-23"><figcaption><span class="dot"></span><strong>Tide</strong> · 2026-07-23</figcaption></figure><figure class="fig-wind"><img src="img/2026-07-23_wind.png" alt="wind chart for 2026-07-23"><figcaption><span class="dot"></span><strong>Wind</strong> · 2026-07-23</figcaption></figure><figure class="fig-current"><img src="img/2026-07-23_current.png" alt="current chart for 2026-07-23"><figcaption><span class="dot"></span><strong>Current</strong> · 2026-07-23</figcaption></figure></div></article>
-<footer><strong>Bristol Harbor Race Briefs</strong> · data from NOAA CO-OPS, Open-Meteo, NWS &amp; NDBC · built by the <code>race-brief</code> skill</footer>
+<footer><strong>Bristol Harbor Sailing Report</strong> · data from NOAA CO-OPS, Open-Meteo, NWS &amp; NDBC · built by the <code>race-brief</code> skill</footer>
 </div></body></html>

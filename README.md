@@ -1,8 +1,9 @@
-# starling
+# Bristol Harbor Sailing Report
 
-Hyper-local **wind, tide, and tidal-current race briefs** for sailboat racing out of
-**Bristol Harbor, RI** — courses from the inner harbor out around Hog Island and
-Poppasquash Point into the East Passage.
+Hyper-local **wind, tide, and tidal-current reports** for sailing out of
+**Bristol Harbor, RI** — a daily daysail forecast and a Wednesday race brief,
+covering courses from the inner harbor out around Hog Island and Poppasquash
+Point into the East Passage.
 
 All data comes from **keyless public APIs**: NOAA CO-OPS (tide + currents),
 Open-Meteo (wind forecast), NWS (marine text), and NDBC (offshore context).
@@ -13,8 +14,8 @@ Open-Meteo (wind forecast), NWS (marine text), and NDBC (offshore context).
 |------|------|
 | `.claude/skills/race-brief/` | The `race-brief` skill — `fetch.py`, `plot.py`, `stations.json`, `SKILL.md` |
 | `.claude/commands/` | `/race-brief`, `/wind`, `/tide` slash commands |
-| `briefs/` | Generated briefs — one JSON + three PNGs (`_tide`, `_wind`, `_current`) per race day |
-| `docs/` | Published brief journal (GitHub Pages) |
+| `briefs/` | Generated reports — one JSON + three PNGs (`_tide`, `_wind`, `_current`) per day |
+| `docs/` | Published report journal (GitHub Pages) |
 
 ## Running a brief
 
