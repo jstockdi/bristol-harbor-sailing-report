@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#16a085">
+<title>Sat 05 Sep 2026 · Daysail</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;450;500;600;700&display=swap" rel="stylesheet"><style>
+:root{
+  --ink:#132534;        /* near-black navy body text */
+  --deep:#0f3a5a;       /* deep sea blue — display headings */
+  --sea:#1a5c88;        /* mid sea blue — links, section heads */
+  --tide:#2f86b4;       /* lighter tide blue — accents */
+  --green:#12806a;      /* kelp / teal green — the second voice */
+  --green-d:#0d5f4f;    /* deep green — hover / emphasis */
+  --paper:#f5f9fb;      /* cool near-white ground */
+  --card:#ffffff;
+  --line:#dce7ee;       /* hairline */
+  --line-2:#eef4f8;     /* faint fill / zebra */
+  --mist:#5b7183;       /* muted slate — meta text */
+  --wash:#e9f3f0;       /* green wash — callout */
+  --band:linear-gradient(152deg,#0f3a5a 0%,#164f77 46%,#12806a 100%);
+  --radius:16px;--radius-sm:10px;--maxw:42rem;
+  --shadow:0 14px 34px -22px rgba(15,58,90,.55);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:17px;line-height:1.68;color:var(--ink);background:var(--paper);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3{font-family:Fraunces,Georgia,"Times New Roman",serif;
+  font-optical-sizing:auto;font-weight:500;line-height:1.12;
+  letter-spacing:-.017em;text-wrap:balance}
+p{margin:0 0 1rem}
+a{color:var(--sea);text-underline-offset:2px;text-decoration-thickness:1px}
+strong{font-weight:600}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:1.1rem 1.2rem 4rem}
+
+/* eyebrow / kicker label — small caps, letter-spaced, in green */
+.kicker{font-size:.72rem;font-weight:600;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--green);margin:0 0 .55rem}
+
+/* index hero */
+header.site{position:relative;overflow:hidden;background:var(--band);color:#fff;
+  border-radius:var(--radius);padding:2rem 1.5rem 1.75rem;margin:.4rem 0 1.7rem;
+  box-shadow:0 22px 44px -26px rgba(15,58,90,.75)}
+header.site::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(120% 90% at 88% 8%,rgba(255,255,255,.16),transparent 55%)}
+header.site>*{position:relative;z-index:1}
+header.site .mark{width:44px;height:44px;display:block;margin-bottom:1rem}
+header.site .kicker{color:rgba(255,255,255,.82);margin-bottom:.45rem}
+header.site h1{margin:0;color:#fff;font-size:clamp(1.85rem,7.5vw,2.5rem);
+  letter-spacing:-.02em}
+header.site .site-sub{margin:.7rem 0 0;color:#e2eef4;font-size:1.02rem;
+  line-height:1.55;max-width:32rem}
+
+/* index cards */
+.entry{position:relative;overflow:hidden;background:var(--card);
+  border:1px solid var(--line);border-radius:var(--radius);
+  padding:1.2rem 1.3rem 1.3rem 1.55rem;margin:0 0 1.1rem;box-shadow:var(--shadow);
+  transition:transform .16s ease,box-shadow .16s ease}
+.entry::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;
+  background:var(--band)}
+.entry:active{transform:scale(.994)}
+@media(hover:hover){.entry:hover{transform:translateY(-2px);
+  box-shadow:0 20px 40px -22px rgba(15,58,90,.5)}}
+.entry h2{margin:0;font-size:1.4rem}
+.entry h2 a{text-decoration:none;color:var(--deep)}
+@media(hover:hover){.entry h2 a:hover{color:var(--sea)}}
+.entry .meta{margin:.4rem 0 .1rem}
+.meta{color:var(--mist);font-size:.85rem;line-height:1.5;margin:.35rem 0 0;
+  display:flex;flex-wrap:wrap;gap:.2rem .6rem}
+.entry .headline{font-family:Fraunces,Georgia,serif;font-weight:400;font-size:1.1rem;
+  line-height:1.42;margin:.7rem 0 0;color:var(--ink)}
+.thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin-top:1rem}
+.thumbs img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top;
+  border-radius:var(--radius-sm);border:1px solid var(--line);background:#fff}
+
+/* entry page */
+.back{display:inline-flex;align-items:center;gap:.4rem;margin:.1rem 0 1.4rem;
+  font-size:.9rem;color:var(--sea);text-decoration:none;font-weight:500}
+@media(hover:hover){.back:hover{color:var(--green-d)}}
+article>.kicker{margin-bottom:.45rem}
+article h1{font-size:clamp(1.75rem,7vw,2.35rem);margin:0 0 .55rem;color:var(--deep)}
+article>.meta{font-size:.88rem;margin:0 0 .2rem}
+article h2{position:relative;font-size:1.36rem;margin:2.3rem 0 .65rem;color:var(--deep);
+  padding-bottom:.4rem;border-bottom:2px solid var(--line)}
+article h2::before{content:"";display:inline-block;width:.52rem;height:.52rem;
+  background:var(--green);border-radius:2px;margin-right:.6rem;
+  vertical-align:middle;transform:translateY(-.12em)}
+article .headline{position:relative;font-family:Fraunces,Georgia,serif;
+  font-style:italic;font-weight:400;font-size:1.24rem;line-height:1.5;
+  margin:1rem 0 1.7rem;padding:1.1rem 1.25rem 1.1rem 1.4rem;background:var(--wash);
+  border-left:4px solid var(--green);border-radius:12px;color:var(--deep)}
+article .headline strong{font-weight:500}
+article p,article li{max-width:38rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1rem}
+article li{margin:.35rem 0}
+article li::marker{color:var(--green)}
+article strong{color:var(--deep)}
+article a{color:var(--sea);font-weight:500}
+article code{background:var(--line-2);padding:.12rem .38rem;border-radius:5px;
+  font-size:.86em;color:var(--deep);font-weight:500}
+article em{color:var(--mist)}
+
+/* facts table (auto-summary) */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;
+  margin:1.3rem 0;box-shadow:var(--shadow);-webkit-overflow-scrolling:touch}
+.tablewrap table{border-collapse:collapse;width:100%;font-size:.94rem;margin:0}
+.tablewrap th,.tablewrap td{padding:.7rem .9rem;text-align:left;vertical-align:top;
+  border-bottom:1px solid var(--line)}
+.tablewrap tr:last-child th,.tablewrap tr:last-child td{border-bottom:0}
+.tablewrap th{color:var(--deep);font-weight:600;white-space:normal;
+  width:34%;min-width:8.5rem;background:var(--line-2)}
+.tablewrap td{color:var(--ink)}
+/* markdown tables (fallback) */
+article table{border-collapse:collapse;width:100%;margin:1.2rem 0;font-size:.92rem;
+  display:block;overflow-x:auto}
+article table th,article table td{border:1px solid var(--line);padding:.55rem .75rem;
+  text-align:left}
+article table th{background:var(--line-2);color:var(--deep);font-weight:600}
+
+/* chart figures */
+.figs{margin-top:1.6rem}
+.figs figure{margin:0 0 1.15rem;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--radius);padding:.65rem .65rem .35rem;box-shadow:var(--shadow)}
+.figs img{width:100%;border-radius:var(--radius-sm);display:block}
+.figs figcaption{display:flex;align-items:center;gap:.5rem;
+  color:var(--mist);font-size:.82rem;padding:.55rem .35rem .35rem}
+.figs figcaption .dot{width:.55rem;height:.55rem;border-radius:50%;flex:none;
+  background:var(--sea)}
+.figs .fig-tide .dot{background:var(--tide)}
+.figs .fig-wind .dot{background:var(--green)}
+.figs .fig-current .dot{background:var(--deep)}
+.figs figcaption strong{color:var(--deep);font-weight:600}
+
+footer{position:relative;margin-top:2.8rem;color:var(--mist);font-size:.78rem;
+  line-height:1.7;border-top:1px solid var(--line);padding-top:1.25rem}
+footer::before{content:"";position:absolute;top:-1px;left:0;width:3.5rem;height:2px;
+  background:var(--band)}
+footer strong{color:var(--sea);font-weight:600}
+footer code{background:var(--line-2);padding:.08rem .3rem;border-radius:4px;
+  font-size:.92em;color:var(--sea)}
+@media(min-width:600px){.wrap{padding-top:1.7rem}}
+
+/* --- daily daysail report: seafoam-coastal theme (kind != "race") --- */
+/* Overriding the custom props on <body> re-colours everything that reads them,
+   so the race brief keeps the deep-navy/kelp :root palette and the daily
+   daysail report gets teal / seafoam / warm sand. */
+body.theme-daily{
+  --ink:#163029;--deep:#0e7c66;--sea:#147d6a;--tide:#48c9a9;
+  --green:#c98a2e;--green-d:#a8741f;--paper:#f3faf7;
+  --line:#d8ebe4;--line-2:#eaf5f0;--mist:#5f7a72;--wash:#eaf6f0;
+  --band:linear-gradient(152deg,#0e7c66 0%,#16a085 48%,#e6b566 100%);
+  --shadow:0 14px 34px -22px rgba(14,124,102,.5);
+  background:var(--paper)}
+/* index card cue so the two report types read apart at a glance */
+.entry.kind-daily::before{background:linear-gradient(152deg,#0e7c66,#16a085 48%,#e6b566)}
+.entry.kind-daily .meta{color:#0e7c66}
+</style></head>
+<body class="theme-daily"><div class="wrap"><a class="back" href="index.html">← All briefs</a><article><p class="kicker">Bristol Harbor · Rhode Island</p><h1>Sat 05 Sep 2026 · Daysail</h1><p class="meta">Daysail 10:00–18:00</p><p class="headline">A pleasant, breezy-cool early-fall daysail — steady northerly 8-ish kt with mid-teen puffs; best from late morning through mid-afternoon.</p><h2>The day</h2>
+<p>This is a lovely one for getting out — a mellow-to-lively daysail with real breeze but nothing intimidating. Expect a steady northerly around 8 knots with occasional puffs into the mid-teens, sunny skies, and crisp early-September air in the upper 60s to low 70s. It's a touch shiftier than a classic summer sea breeze (northerlies roll off the land and come in puffs), so you'll be trimming and adjusting rather than set-and-forget, but it's honest, sailable wind for anyone comfortable in a light chop.</p>
+<h2>Wind</h2>
+<p>The breeze is out of the <strong>north</strong>, slowly clocking toward the <strong>NNE</strong> as the day goes on. It's already up this morning — the up-bay anemometer at Conimicut is reading a solid ~12 kt, while the Newport station down at the East Passage mouth is softer near 7 kt, so you'll find a bit more push the farther <strong>north/up-bay</strong> you sail and a lighter, gustier feel down toward Hog Island and the Passage. Overall figure a comfortable <strong>8 knots with puffs to 14–15</strong> — nice sailing, powered-up in the gusts but not reef-it territory. The models actually ran a hair strong versus what the water's showing this morning, so if anything take the forecast as a soft ceiling. Being a northerly, expect the classic <strong>soft patch tucked in behind Poppasquash Neck</strong> on its <strong>east/southeast side</strong> — if you drift into a hole there, just nose back out toward open water to find pressure. The whole late-morning-through-mid-afternoon stretch is your sweet spot.</p>
+<h2>Tide &amp; current</h2>
+<p>Low water is early, at <strong>07:48</strong> (about half a foot — very low), then the tide fills all day to a <strong>3.9 ft high at 15:11</strong> before ebbing again. That means for your whole daysail the water is rising and generous — good news for the shallow edges near the harbor fringes and Poppasquash shoals, though give the very shallowest spots a wide berth if you head out right at the start. Current inside the harbor is gentle; the flow you'll notice is out toward the <strong>harbor mouth at Hog Island</strong> and into the <strong>East Passage</strong>, where it runs harder. A midday <strong>flood sets up-bay (toward the NNE)</strong> and turns to slack around <strong>15:40–16:00</strong>, then <strong>ebbs SSW/seaward</strong> later in the afternoon. With the wind out of the north opposing that up-bay flood midday, you may feel a little short, bumpy chop right in the entrance gut off Hog Island — nothing worrying, just a heads-up so it doesn't surprise you.</p>
+<h2>Good to know</h2>
+<p>Beautiful early-fall day: <strong>sunny to mostly sunny</strong>, highs only <strong>around 70–72°F</strong> with a cool morning near 66 — bring a layer, especially with a northerly breeze that'll feel brisk on the water. There's just a <strong>slight (≤30%) chance of a passing shower</strong> later in the day, so glance at the sky in the afternoon but no real thunderstorm concern. With mid-teen gusts around, it's a sensible <strong>life-jackets-on</strong> day for kids and less-experienced crew. A good plan: <strong>head out mid-to-late morning</strong> to catch the steady breeze and rising water, and aim to be <strong>back by late afternoon</strong> — both to stay ahead of any stray shower and to be in before the wind and current soften and swap in the early evening. Enjoy it!</p>
+<p><em>(No NWS marine zone text was available for this window; forecast built from the model and live obs.)</em></p><div class="figs"><figure class="fig-tide"><img src="img/2026-09-05_tide.png" alt="tide chart for 2026-09-05"><figcaption><span class="dot"></span><strong>Tide</strong> · 2026-09-05</figcaption></figure><figure class="fig-wind"><img src="img/2026-09-05_wind.png" alt="wind chart for 2026-09-05"><figcaption><span class="dot"></span><strong>Wind</strong> · 2026-09-05</figcaption></figure><figure class="fig-current"><img src="img/2026-09-05_current.png" alt="current chart for 2026-09-05"><figcaption><span class="dot"></span><strong>Current</strong> · 2026-09-05</figcaption></figure></div></article>
+<footer><strong>Bristol Harbor Sailing Report</strong> · data from NOAA CO-OPS, Open-Meteo, NWS &amp; NDBC · built by the <code>race-brief</code> skill</footer>
+</div></body></html>
