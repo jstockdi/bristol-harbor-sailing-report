@@ -2,10 +2,10 @@
   "harbor": "Bristol Harbor",
   "date": "2026-10-07",
   "window": {
-    "start": "10:00",
-    "end": "18:00"
+    "start": "18:00",
+    "end": "20:00"
   },
-  "generated_utc": "2026-10-07T17:39:07.577218+00:00",
+  "generated_utc": "2026-10-07T21:27:17.257612+00:00",
   "tide": {
     "station": {
       "id": "8452660",
@@ -1080,18 +1080,9 @@
           "meanFloodDir": 11,
           "Bin": "1",
           "meanEbbDir": 199,
-          "Time": "2026-10-07 11:10",
+          "Time": "2026-10-07 19:16",
           "Depth": "10",
           "Velocity_Major": 0
-        },
-        {
-          "Type": "flood",
-          "meanFloodDir": 11,
-          "Bin": "1",
-          "meanEbbDir": 199,
-          "Time": "2026-10-07 16:52",
-          "Depth": "10",
-          "Velocity_Major": 0.36
         }
       ]
     },
@@ -1173,18 +1164,9 @@
           "meanFloodDir": 23,
           "Bin": "1",
           "meanEbbDir": 216,
-          "Time": "2026-10-07 12:22",
+          "Time": "2026-10-07 18:53",
           "Depth": "7",
           "Velocity_Major": 0
-        },
-        {
-          "Type": "flood",
-          "meanFloodDir": 23,
-          "Bin": "1",
-          "meanEbbDir": 216,
-          "Time": "2026-10-07 16:10",
-          "Depth": "7",
-          "Velocity_Major": 0.73
         }
       ]
     }
@@ -1247,7 +1229,7 @@
           "dir": 328,
           "models": {
             "ncep_hrrr_conus": 2.6,
-            "ecmwf_ifs025": 2.2,
+            "ecmwf_ifs025": 2.0,
             "gfs_seamless": 2.6
           }
         },
@@ -1269,7 +1251,7 @@
           "dir": 1,
           "models": {
             "ncep_hrrr_conus": 2.2,
-            "ecmwf_ifs025": 1.2,
+            "ecmwf_ifs025": 1.4,
             "gfs_seamless": 2.2
           }
         },
@@ -1280,7 +1262,7 @@
           "dir": 8,
           "models": {
             "ncep_hrrr_conus": 2.6,
-            "ecmwf_ifs025": 1.0,
+            "ecmwf_ifs025": 1.6,
             "gfs_seamless": 2.6
           }
         },
@@ -1291,7 +1273,7 @@
           "dir": 355,
           "models": {
             "ncep_hrrr_conus": 2.1,
-            "ecmwf_ifs025": 0.6,
+            "ecmwf_ifs025": 1.3,
             "gfs_seamless": 2.1
           }
         },
@@ -1302,7 +1284,7 @@
           "dir": 43,
           "models": {
             "ncep_hrrr_conus": 0.4,
-            "ecmwf_ifs025": 2.0,
+            "ecmwf_ifs025": 1.1,
             "gfs_seamless": 0.4
           }
         },
@@ -1313,7 +1295,7 @@
           "dir": 196,
           "models": {
             "ncep_hrrr_conus": 4.1,
-            "ecmwf_ifs025": 4.4,
+            "ecmwf_ifs025": 3.2,
             "gfs_seamless": 4.1
           }
         },
@@ -1324,153 +1306,153 @@
           "dir": 211,
           "models": {
             "ncep_hrrr_conus": 6.2,
-            "ecmwf_ifs025": 6.6,
+            "ecmwf_ifs025": 5.3,
             "gfs_seamless": 6.2
           }
         },
         {
           "time": "2026-10-07T12:00",
-          "speed": 6.0,
-          "gust": 11.1,
-          "dir": 232,
+          "speed": 7.7,
+          "gust": 11.3,
+          "dir": 208,
           "models": {
-            "ncep_hrrr_conus": 6.0,
-            "ecmwf_ifs025": 8.2,
-            "gfs_seamless": 6.0
+            "ncep_hrrr_conus": 7.7,
+            "ecmwf_ifs025": 7.1,
+            "gfs_seamless": 7.7
           }
         },
         {
           "time": "2026-10-07T13:00",
-          "speed": 7.0,
-          "gust": 11.3,
-          "dir": 219,
+          "speed": 9.2,
+          "gust": 11.5,
+          "dir": 215,
           "models": {
-            "ncep_hrrr_conus": 7.0,
-            "ecmwf_ifs025": 9.6,
-            "gfs_seamless": 7.0
+            "ncep_hrrr_conus": 9.2,
+            "ecmwf_ifs025": 8.6,
+            "gfs_seamless": 9.2
           }
         },
         {
           "time": "2026-10-07T14:00",
-          "speed": 7.8,
-          "gust": 11.3,
-          "dir": 220,
+          "speed": 8.9,
+          "gust": 12.1,
+          "dir": 205,
           "models": {
-            "ncep_hrrr_conus": 7.8,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 7.8
+            "ncep_hrrr_conus": 8.9,
+            "ecmwf_ifs025": 9.8,
+            "gfs_seamless": 8.9
           }
         },
         {
           "time": "2026-10-07T15:00",
-          "speed": 10.1,
-          "gust": 14.2,
-          "dir": 215,
+          "speed": 10.6,
+          "gust": 14.8,
+          "dir": 204,
           "models": {
-            "ncep_hrrr_conus": 10.1,
-            "ecmwf_ifs025": 10.7,
-            "gfs_seamless": 10.1
+            "ncep_hrrr_conus": 10.6,
+            "ecmwf_ifs025": 10.4,
+            "gfs_seamless": 10.6
           }
         },
         {
           "time": "2026-10-07T16:00",
-          "speed": 10.7,
-          "gust": 15.4,
-          "dir": 208,
+          "speed": 11.5,
+          "gust": 16.1,
+          "dir": 211,
           "models": {
-            "ncep_hrrr_conus": 10.7,
+            "ncep_hrrr_conus": 11.5,
             "ecmwf_ifs025": 10.5,
-            "gfs_seamless": 10.7
+            "gfs_seamless": 11.5
           }
         },
         {
           "time": "2026-10-07T17:00",
-          "speed": 11.0,
-          "gust": 17.9,
-          "dir": 211,
-          "models": {
-            "ncep_hrrr_conus": 11.0,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 11.0
-          }
-        },
-        {
-          "time": "2026-10-07T18:00",
-          "speed": 10.5,
-          "gust": 18.7,
-          "dir": 212,
-          "models": {
-            "ncep_hrrr_conus": 10.5,
-            "ecmwf_ifs025": 10.6,
-            "gfs_seamless": 10.5
-          }
-        },
-        {
-          "time": "2026-10-07T19:00",
           "speed": 10.3,
-          "gust": 18.5,
-          "dir": 208,
+          "gust": 15.9,
+          "dir": 213,
           "models": {
             "ncep_hrrr_conus": 10.3,
-            "ecmwf_ifs025": 10.9,
+            "ecmwf_ifs025": 10.6,
             "gfs_seamless": 10.3
           }
         },
         {
-          "time": "2026-10-07T20:00",
-          "speed": 11.1,
-          "gust": 19.4,
-          "dir": 216,
+          "time": "2026-10-07T18:00",
+          "speed": 10.4,
+          "gust": 18.5,
+          "dir": 206,
           "models": {
-            "ncep_hrrr_conus": 11.1,
-            "ecmwf_ifs025": 11.1,
-            "gfs_seamless": 11.1
+            "ncep_hrrr_conus": 10.4,
+            "ecmwf_ifs025": 10.5,
+            "gfs_seamless": 10.4
           }
         },
         {
-          "time": "2026-10-07T21:00",
+          "time": "2026-10-07T19:00",
+          "speed": 11.0,
+          "gust": 18.7,
+          "dir": 210,
+          "models": {
+            "ncep_hrrr_conus": 11.0,
+            "ecmwf_ifs025": 10.3,
+            "gfs_seamless": 11.0
+          }
+        },
+        {
+          "time": "2026-10-07T20:00",
           "speed": 11.9,
-          "gust": 21.2,
-          "dir": 215,
+          "gust": 21.0,
+          "dir": 214,
           "models": {
             "ncep_hrrr_conus": 11.9,
-            "ecmwf_ifs025": 10.6,
+            "ecmwf_ifs025": 10.0,
             "gfs_seamless": 11.9
           }
         },
         {
-          "time": "2026-10-07T22:00",
-          "speed": 12.7,
-          "gust": 22.0,
-          "dir": 215,
+          "time": "2026-10-07T21:00",
+          "speed": 11.4,
+          "gust": 19.6,
+          "dir": 219,
           "models": {
-            "ncep_hrrr_conus": 12.7,
-            "ecmwf_ifs025": 10.3,
-            "gfs_seamless": 12.7
+            "ncep_hrrr_conus": 11.4,
+            "ecmwf_ifs025": 9.5,
+            "gfs_seamless": 11.4
+          }
+        },
+        {
+          "time": "2026-10-07T22:00",
+          "speed": 12.2,
+          "gust": 20.6,
+          "dir": 221,
+          "models": {
+            "ncep_hrrr_conus": 12.2,
+            "ecmwf_ifs025": 8.9,
+            "gfs_seamless": 12.2
           }
         },
         {
           "time": "2026-10-07T23:00",
-          "speed": 12.9,
-          "gust": 22.2,
-          "dir": 215,
+          "speed": 12.4,
+          "gust": 20.8,
+          "dir": 221,
           "models": {
-            "ncep_hrrr_conus": 12.9,
-            "ecmwf_ifs025": 9.9,
-            "gfs_seamless": 12.9
+            "ncep_hrrr_conus": 12.4,
+            "ecmwf_ifs025": 8.7,
+            "gfs_seamless": 12.4
           }
         }
       ],
       "summary": {
-        "avg_speed": 8.2,
-        "max_gust": 18.7,
-        "dir_start": 196,
-        "dir_end": 212,
-        "veer": 16,
+        "avg_speed": 11.1,
+        "max_gust": 21.0,
+        "dir_start": 206,
+        "dir_end": 214,
+        "veer": 8,
         "model_avgs": {
-          "ncep_hrrr_conus": 8.2,
-          "ecmwf_ifs025": 9.0,
-          "gfs_seamless": 8.2
+          "ncep_hrrr_conus": 11.1,
+          "ecmwf_ifs025": 10.3,
+          "gfs_seamless": 11.1
         },
         "spread": 0.8
       }
@@ -1532,7 +1514,7 @@
           "dir": 339,
           "models": {
             "ncep_hrrr_conus": 2.9,
-            "ecmwf_ifs025": 2.2,
+            "ecmwf_ifs025": 2.0,
             "gfs_seamless": 2.9
           }
         },
@@ -1554,7 +1536,7 @@
           "dir": 16,
           "models": {
             "ncep_hrrr_conus": 2.5,
-            "ecmwf_ifs025": 1.2,
+            "ecmwf_ifs025": 1.4,
             "gfs_seamless": 2.5
           }
         },
@@ -1565,7 +1547,7 @@
           "dir": 36,
           "models": {
             "ncep_hrrr_conus": 2.9,
-            "ecmwf_ifs025": 1.0,
+            "ecmwf_ifs025": 1.6,
             "gfs_seamless": 2.9
           }
         },
@@ -1576,7 +1558,7 @@
           "dir": 21,
           "models": {
             "ncep_hrrr_conus": 2.3,
-            "ecmwf_ifs025": 0.6,
+            "ecmwf_ifs025": 1.3,
             "gfs_seamless": 2.3
           }
         },
@@ -1587,7 +1569,7 @@
           "dir": 106,
           "models": {
             "ncep_hrrr_conus": 0.4,
-            "ecmwf_ifs025": 2.0,
+            "ecmwf_ifs025": 1.1,
             "gfs_seamless": 0.4
           }
         },
@@ -1598,7 +1580,7 @@
           "dir": 204,
           "models": {
             "ncep_hrrr_conus": 4.5,
-            "ecmwf_ifs025": 4.4,
+            "ecmwf_ifs025": 3.2,
             "gfs_seamless": 4.5
           }
         },
@@ -1609,155 +1591,155 @@
           "dir": 210,
           "models": {
             "ncep_hrrr_conus": 6.4,
-            "ecmwf_ifs025": 6.6,
+            "ecmwf_ifs025": 5.3,
             "gfs_seamless": 6.4
           }
         },
         {
           "time": "2026-10-07T12:00",
-          "speed": 5.7,
-          "gust": 11.1,
-          "dir": 218,
+          "speed": 8.0,
+          "gust": 11.7,
+          "dir": 199,
           "models": {
-            "ncep_hrrr_conus": 5.7,
-            "ecmwf_ifs025": 8.2,
-            "gfs_seamless": 5.7
+            "ncep_hrrr_conus": 8.0,
+            "ecmwf_ifs025": 7.1,
+            "gfs_seamless": 8.0
           }
         },
         {
           "time": "2026-10-07T13:00",
-          "speed": 7.1,
+          "speed": 9.0,
           "gust": 11.3,
-          "dir": 206,
+          "dir": 200,
           "models": {
-            "ncep_hrrr_conus": 7.1,
-            "ecmwf_ifs025": 9.6,
-            "gfs_seamless": 7.1
+            "ncep_hrrr_conus": 9.0,
+            "ecmwf_ifs025": 8.6,
+            "gfs_seamless": 9.0
           }
         },
         {
           "time": "2026-10-07T14:00",
-          "speed": 8.3,
-          "gust": 13.0,
-          "dir": 211,
+          "speed": 9.5,
+          "gust": 12.2,
+          "dir": 200,
           "models": {
-            "ncep_hrrr_conus": 8.3,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 8.3
+            "ncep_hrrr_conus": 9.5,
+            "ecmwf_ifs025": 9.8,
+            "gfs_seamless": 9.5
           }
         },
         {
           "time": "2026-10-07T15:00",
-          "speed": 10.7,
-          "gust": 14.0,
-          "dir": 212,
+          "speed": 10.9,
+          "gust": 14.4,
+          "dir": 199,
           "models": {
-            "ncep_hrrr_conus": 10.7,
-            "ecmwf_ifs025": 10.7,
-            "gfs_seamless": 10.7
+            "ncep_hrrr_conus": 10.9,
+            "ecmwf_ifs025": 10.4,
+            "gfs_seamless": 10.9
           }
         },
         {
           "time": "2026-10-07T16:00",
-          "speed": 11.4,
-          "gust": 15.6,
-          "dir": 206,
-          "models": {
-            "ncep_hrrr_conus": 11.4,
-            "ecmwf_ifs025": 10.5,
-            "gfs_seamless": 11.4
-          }
-        },
-        {
-          "time": "2026-10-07T17:00",
-          "speed": 12.1,
-          "gust": 18.1,
-          "dir": 212,
-          "models": {
-            "ncep_hrrr_conus": 12.1,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 12.1
-          }
-        },
-        {
-          "time": "2026-10-07T18:00",
           "speed": 12.4,
-          "gust": 18.9,
-          "dir": 213,
+          "gust": 16.3,
+          "dir": 210,
           "models": {
             "ncep_hrrr_conus": 12.4,
-            "ecmwf_ifs025": 10.6,
+            "ecmwf_ifs025": 10.5,
             "gfs_seamless": 12.4
           }
         },
         {
-          "time": "2026-10-07T19:00",
-          "speed": 13.2,
-          "gust": 19.4,
+          "time": "2026-10-07T17:00",
+          "speed": 11.4,
+          "gust": 16.3,
           "dir": 213,
           "models": {
-            "ncep_hrrr_conus": 13.2,
-            "ecmwf_ifs025": 10.9,
-            "gfs_seamless": 13.2
+            "ncep_hrrr_conus": 11.4,
+            "ecmwf_ifs025": 10.6,
+            "gfs_seamless": 11.4
+          }
+        },
+        {
+          "time": "2026-10-07T18:00",
+          "speed": 12.3,
+          "gust": 18.3,
+          "dir": 207,
+          "models": {
+            "ncep_hrrr_conus": 12.3,
+            "ecmwf_ifs025": 10.5,
+            "gfs_seamless": 12.3
+          }
+        },
+        {
+          "time": "2026-10-07T19:00",
+          "speed": 13.0,
+          "gust": 19.2,
+          "dir": 210,
+          "models": {
+            "ncep_hrrr_conus": 13.0,
+            "ecmwf_ifs025": 10.3,
+            "gfs_seamless": 13.0
           }
         },
         {
           "time": "2026-10-07T20:00",
-          "speed": 13.2,
-          "gust": 20.0,
-          "dir": 216,
+          "speed": 14.2,
+          "gust": 21.6,
+          "dir": 215,
           "models": {
-            "ncep_hrrr_conus": 13.2,
-            "ecmwf_ifs025": 11.1,
-            "gfs_seamless": 13.2
+            "ncep_hrrr_conus": 14.2,
+            "ecmwf_ifs025": 10.0,
+            "gfs_seamless": 14.2
           }
         },
         {
           "time": "2026-10-07T21:00",
-          "speed": 14.6,
-          "gust": 22.2,
-          "dir": 216,
+          "speed": 13.4,
+          "gust": 20.2,
+          "dir": 220,
           "models": {
-            "ncep_hrrr_conus": 14.6,
-            "ecmwf_ifs025": 10.6,
-            "gfs_seamless": 14.6
+            "ncep_hrrr_conus": 13.4,
+            "ecmwf_ifs025": 9.5,
+            "gfs_seamless": 13.4
           }
         },
         {
           "time": "2026-10-07T22:00",
-          "speed": 15.4,
-          "gust": 22.9,
-          "dir": 215,
+          "speed": 14.1,
+          "gust": 21.0,
+          "dir": 221,
           "models": {
-            "ncep_hrrr_conus": 15.4,
-            "ecmwf_ifs025": 10.3,
-            "gfs_seamless": 15.4
+            "ncep_hrrr_conus": 14.1,
+            "ecmwf_ifs025": 8.9,
+            "gfs_seamless": 14.1
           }
         },
         {
           "time": "2026-10-07T23:00",
-          "speed": 15.3,
-          "gust": 22.7,
-          "dir": 214,
+          "speed": 14.4,
+          "gust": 20.8,
+          "dir": 221,
           "models": {
-            "ncep_hrrr_conus": 15.3,
-            "ecmwf_ifs025": 9.9,
-            "gfs_seamless": 15.3
+            "ncep_hrrr_conus": 14.4,
+            "ecmwf_ifs025": 8.7,
+            "gfs_seamless": 14.4
           }
         }
       ],
       "summary": {
-        "avg_speed": 8.7,
-        "max_gust": 18.9,
-        "dir_start": 204,
-        "dir_end": 213,
-        "veer": 9,
+        "avg_speed": 13.2,
+        "max_gust": 21.6,
+        "dir_start": 207,
+        "dir_end": 215,
+        "veer": 8,
         "model_avgs": {
-          "ncep_hrrr_conus": 8.7,
-          "ecmwf_ifs025": 9.0,
-          "gfs_seamless": 8.7
+          "ncep_hrrr_conus": 13.2,
+          "ecmwf_ifs025": 10.3,
+          "gfs_seamless": 13.2
         },
-        "spread": 0.3
+        "spread": 2.9
       }
     },
     {
@@ -1817,7 +1799,7 @@
           "dir": 345,
           "models": {
             "ncep_hrrr_conus": 4.1,
-            "ecmwf_ifs025": 2.2,
+            "ecmwf_ifs025": 2.0,
             "gfs_seamless": 4.1
           }
         },
@@ -1839,7 +1821,7 @@
           "dir": 10,
           "models": {
             "ncep_hrrr_conus": 3.5,
-            "ecmwf_ifs025": 1.2,
+            "ecmwf_ifs025": 1.4,
             "gfs_seamless": 3.5
           }
         },
@@ -1850,7 +1832,7 @@
           "dir": 56,
           "models": {
             "ncep_hrrr_conus": 2.8,
-            "ecmwf_ifs025": 1.0,
+            "ecmwf_ifs025": 1.6,
             "gfs_seamless": 2.8
           }
         },
@@ -1861,7 +1843,7 @@
           "dir": 92,
           "models": {
             "ncep_hrrr_conus": 1.6,
-            "ecmwf_ifs025": 0.6,
+            "ecmwf_ifs025": 1.3,
             "gfs_seamless": 1.6
           }
         },
@@ -1872,7 +1854,7 @@
           "dir": 85,
           "models": {
             "ncep_hrrr_conus": 1.0,
-            "ecmwf_ifs025": 2.0,
+            "ecmwf_ifs025": 1.1,
             "gfs_seamless": 1.0
           }
         },
@@ -1883,7 +1865,7 @@
           "dir": 196,
           "models": {
             "ncep_hrrr_conus": 4.1,
-            "ecmwf_ifs025": 4.4,
+            "ecmwf_ifs025": 3.2,
             "gfs_seamless": 4.1
           }
         },
@@ -1894,155 +1876,155 @@
           "dir": 212,
           "models": {
             "ncep_hrrr_conus": 5.7,
-            "ecmwf_ifs025": 6.6,
+            "ecmwf_ifs025": 5.3,
             "gfs_seamless": 5.7
           }
         },
         {
           "time": "2026-10-07T12:00",
-          "speed": 5.2,
-          "gust": 10.1,
-          "dir": 238,
+          "speed": 7.2,
+          "gust": 10.9,
+          "dir": 202,
           "models": {
-            "ncep_hrrr_conus": 5.2,
-            "ecmwf_ifs025": 8.2,
-            "gfs_seamless": 5.2
+            "ncep_hrrr_conus": 7.2,
+            "ecmwf_ifs025": 7.1,
+            "gfs_seamless": 7.2
           }
         },
         {
           "time": "2026-10-07T13:00",
-          "speed": 6.2,
-          "gust": 10.5,
-          "dir": 220,
+          "speed": 8.5,
+          "gust": 10.9,
+          "dir": 208,
           "models": {
-            "ncep_hrrr_conus": 6.2,
-            "ecmwf_ifs025": 9.6,
-            "gfs_seamless": 6.2
+            "ncep_hrrr_conus": 8.5,
+            "ecmwf_ifs025": 8.6,
+            "gfs_seamless": 8.5
           }
         },
         {
           "time": "2026-10-07T14:00",
-          "speed": 8.0,
-          "gust": 11.1,
-          "dir": 215,
+          "speed": 8.9,
+          "gust": 12.2,
+          "dir": 205,
           "models": {
-            "ncep_hrrr_conus": 8.0,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 8.0
+            "ncep_hrrr_conus": 8.9,
+            "ecmwf_ifs025": 9.8,
+            "gfs_seamless": 8.9
           }
         },
         {
           "time": "2026-10-07T15:00",
-          "speed": 9.6,
-          "gust": 13.8,
-          "dir": 214,
+          "speed": 10.6,
+          "gust": 15.0,
+          "dir": 205,
           "models": {
-            "ncep_hrrr_conus": 9.6,
-            "ecmwf_ifs025": 10.7,
-            "gfs_seamless": 9.6
+            "ncep_hrrr_conus": 10.6,
+            "ecmwf_ifs025": 10.4,
+            "gfs_seamless": 10.6
           }
         },
         {
           "time": "2026-10-07T16:00",
-          "speed": 9.6,
-          "gust": 15.2,
-          "dir": 204,
+          "speed": 10.6,
+          "gust": 15.7,
+          "dir": 210,
           "models": {
-            "ncep_hrrr_conus": 9.6,
+            "ncep_hrrr_conus": 10.6,
             "ecmwf_ifs025": 10.5,
-            "gfs_seamless": 9.6
+            "gfs_seamless": 10.6
           }
         },
         {
           "time": "2026-10-07T17:00",
-          "speed": 9.3,
-          "gust": 17.3,
-          "dir": 208,
+          "speed": 9.1,
+          "gust": 15.4,
+          "dir": 206,
           "models": {
-            "ncep_hrrr_conus": 9.3,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 9.3
+            "ncep_hrrr_conus": 9.1,
+            "ecmwf_ifs025": 10.6,
+            "gfs_seamless": 9.1
           }
         },
         {
           "time": "2026-10-07T18:00",
-          "speed": 7.5,
-          "gust": 18.3,
-          "dir": 208,
+          "speed": 7.8,
+          "gust": 18.5,
+          "dir": 203,
           "models": {
-            "ncep_hrrr_conus": 7.5,
-            "ecmwf_ifs025": 10.6,
-            "gfs_seamless": 7.5
+            "ncep_hrrr_conus": 7.8,
+            "ecmwf_ifs025": 10.5,
+            "gfs_seamless": 7.8
           }
         },
         {
           "time": "2026-10-07T19:00",
-          "speed": 7.1,
-          "gust": 20.4,
-          "dir": 206,
-          "models": {
-            "ncep_hrrr_conus": 7.1,
-            "ecmwf_ifs025": 10.9,
-            "gfs_seamless": 7.1
-          }
-        },
-        {
-          "time": "2026-10-07T20:00",
           "speed": 7.0,
-          "gust": 19.0,
-          "dir": 209,
+          "gust": 20.4,
+          "dir": 203,
           "models": {
             "ncep_hrrr_conus": 7.0,
-            "ecmwf_ifs025": 11.1,
+            "ecmwf_ifs025": 10.3,
             "gfs_seamless": 7.0
           }
         },
         {
-          "time": "2026-10-07T21:00",
+          "time": "2026-10-07T20:00",
           "speed": 7.8,
-          "gust": 22.2,
+          "gust": 21.6,
           "dir": 209,
           "models": {
             "ncep_hrrr_conus": 7.8,
-            "ecmwf_ifs025": 10.6,
+            "ecmwf_ifs025": 10.0,
             "gfs_seamless": 7.8
+          }
+        },
+        {
+          "time": "2026-10-07T21:00",
+          "speed": 7.5,
+          "gust": 19.6,
+          "dir": 213,
+          "models": {
+            "ncep_hrrr_conus": 7.5,
+            "ecmwf_ifs025": 9.5,
+            "gfs_seamless": 7.5
           }
         },
         {
           "time": "2026-10-07T22:00",
           "speed": 8.7,
-          "gust": 23.9,
-          "dir": 212,
+          "gust": 21.6,
+          "dir": 216,
           "models": {
             "ncep_hrrr_conus": 8.7,
-            "ecmwf_ifs025": 10.3,
+            "ecmwf_ifs025": 8.9,
             "gfs_seamless": 8.7
           }
         },
         {
           "time": "2026-10-07T23:00",
-          "speed": 8.8,
-          "gust": 23.9,
-          "dir": 210,
+          "speed": 8.4,
+          "gust": 20.6,
+          "dir": 215,
           "models": {
-            "ncep_hrrr_conus": 8.8,
-            "ecmwf_ifs025": 9.9,
-            "gfs_seamless": 8.8
+            "ncep_hrrr_conus": 8.4,
+            "ecmwf_ifs025": 8.7,
+            "gfs_seamless": 8.4
           }
         }
       ],
       "summary": {
-        "avg_speed": 7.2,
-        "max_gust": 18.3,
-        "dir_start": 196,
-        "dir_end": 208,
-        "veer": 12,
+        "avg_speed": 7.5,
+        "max_gust": 21.6,
+        "dir_start": 203,
+        "dir_end": 209,
+        "veer": 6,
         "model_avgs": {
-          "ncep_hrrr_conus": 7.2,
-          "ecmwf_ifs025": 9.0,
-          "gfs_seamless": 7.2
+          "ncep_hrrr_conus": 7.5,
+          "ecmwf_ifs025": 10.3,
+          "gfs_seamless": 7.5
         },
-        "spread": 1.8
+        "spread": 2.8
       }
     },
     {
@@ -2102,7 +2084,7 @@
           "dir": 350,
           "models": {
             "ncep_hrrr_conus": 2.2,
-            "ecmwf_ifs025": 2.2,
+            "ecmwf_ifs025": 2.0,
             "gfs_seamless": 2.2
           }
         },
@@ -2124,7 +2106,7 @@
           "dir": 31,
           "models": {
             "ncep_hrrr_conus": 3.0,
-            "ecmwf_ifs025": 1.2,
+            "ecmwf_ifs025": 1.4,
             "gfs_seamless": 3.0
           }
         },
@@ -2135,7 +2117,7 @@
           "dir": 73,
           "models": {
             "ncep_hrrr_conus": 2.8,
-            "ecmwf_ifs025": 1.0,
+            "ecmwf_ifs025": 1.6,
             "gfs_seamless": 2.8
           }
         },
@@ -2146,7 +2128,7 @@
           "dir": 88,
           "models": {
             "ncep_hrrr_conus": 1.8,
-            "ecmwf_ifs025": 0.6,
+            "ecmwf_ifs025": 1.3,
             "gfs_seamless": 1.8
           }
         },
@@ -2157,7 +2139,7 @@
           "dir": 80,
           "models": {
             "ncep_hrrr_conus": 1.3,
-            "ecmwf_ifs025": 2.0,
+            "ecmwf_ifs025": 1.1,
             "gfs_seamless": 1.3
           }
         },
@@ -2168,7 +2150,7 @@
           "dir": 199,
           "models": {
             "ncep_hrrr_conus": 4.1,
-            "ecmwf_ifs025": 4.4,
+            "ecmwf_ifs025": 3.2,
             "gfs_seamless": 4.1
           }
         },
@@ -2179,155 +2161,155 @@
           "dir": 211,
           "models": {
             "ncep_hrrr_conus": 5.4,
-            "ecmwf_ifs025": 6.6,
+            "ecmwf_ifs025": 5.3,
             "gfs_seamless": 5.4
           }
         },
         {
           "time": "2026-10-07T12:00",
-          "speed": 4.8,
-          "gust": 9.9,
-          "dir": 236,
+          "speed": 7.2,
+          "gust": 10.7,
+          "dir": 202,
           "models": {
-            "ncep_hrrr_conus": 4.8,
-            "ecmwf_ifs025": 8.2,
-            "gfs_seamless": 4.8
+            "ncep_hrrr_conus": 7.2,
+            "ecmwf_ifs025": 7.1,
+            "gfs_seamless": 7.2
           }
         },
         {
           "time": "2026-10-07T13:00",
-          "speed": 6.0,
-          "gust": 10.3,
-          "dir": 217,
+          "speed": 8.5,
+          "gust": 11.1,
+          "dir": 207,
           "models": {
-            "ncep_hrrr_conus": 6.0,
-            "ecmwf_ifs025": 9.6,
-            "gfs_seamless": 6.0
+            "ncep_hrrr_conus": 8.5,
+            "ecmwf_ifs025": 8.6,
+            "gfs_seamless": 8.5
           }
         },
         {
           "time": "2026-10-07T14:00",
-          "speed": 7.9,
-          "gust": 11.9,
-          "dir": 213,
+          "speed": 8.7,
+          "gust": 12.6,
+          "dir": 207,
           "models": {
-            "ncep_hrrr_conus": 7.9,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 7.9
+            "ncep_hrrr_conus": 8.7,
+            "ecmwf_ifs025": 9.8,
+            "gfs_seamless": 8.7
           }
         },
         {
           "time": "2026-10-07T15:00",
-          "speed": 9.3,
-          "gust": 13.8,
-          "dir": 212,
+          "speed": 10.1,
+          "gust": 15.2,
+          "dir": 206,
           "models": {
-            "ncep_hrrr_conus": 9.3,
-            "ecmwf_ifs025": 10.7,
-            "gfs_seamless": 9.3
+            "ncep_hrrr_conus": 10.1,
+            "ecmwf_ifs025": 10.4,
+            "gfs_seamless": 10.1
           }
         },
         {
           "time": "2026-10-07T16:00",
-          "speed": 9.0,
-          "gust": 15.2,
-          "dir": 204,
+          "speed": 10.0,
+          "gust": 16.1,
+          "dir": 211,
           "models": {
-            "ncep_hrrr_conus": 9.0,
+            "ncep_hrrr_conus": 10.0,
             "ecmwf_ifs025": 10.5,
-            "gfs_seamless": 9.0
+            "gfs_seamless": 10.0
           }
         },
         {
           "time": "2026-10-07T17:00",
-          "speed": 8.4,
-          "gust": 17.1,
-          "dir": 210,
+          "speed": 8.5,
+          "gust": 15.7,
+          "dir": 207,
           "models": {
-            "ncep_hrrr_conus": 8.4,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 8.4
+            "ncep_hrrr_conus": 8.5,
+            "ecmwf_ifs025": 10.6,
+            "gfs_seamless": 8.5
           }
         },
         {
           "time": "2026-10-07T18:00",
-          "speed": 6.6,
-          "gust": 18.1,
+          "speed": 6.9,
+          "gust": 18.5,
           "dir": 208,
           "models": {
-            "ncep_hrrr_conus": 6.6,
-            "ecmwf_ifs025": 10.6,
-            "gfs_seamless": 6.6
+            "ncep_hrrr_conus": 6.9,
+            "ecmwf_ifs025": 10.5,
+            "gfs_seamless": 6.9
           }
         },
         {
           "time": "2026-10-07T19:00",
-          "speed": 6.6,
-          "gust": 20.6,
-          "dir": 210,
-          "models": {
-            "ncep_hrrr_conus": 6.6,
-            "ecmwf_ifs025": 10.9,
-            "gfs_seamless": 6.6
-          }
-        },
-        {
-          "time": "2026-10-07T20:00",
           "speed": 6.3,
-          "gust": 21.0,
-          "dir": 213,
+          "gust": 20.8,
+          "dir": 205,
           "models": {
             "ncep_hrrr_conus": 6.3,
-            "ecmwf_ifs025": 11.1,
+            "ecmwf_ifs025": 10.3,
             "gfs_seamless": 6.3
           }
         },
         {
-          "time": "2026-10-07T21:00",
+          "time": "2026-10-07T20:00",
           "speed": 7.1,
-          "gust": 22.2,
-          "dir": 212,
+          "gust": 21.6,
+          "dir": 214,
           "models": {
             "ncep_hrrr_conus": 7.1,
-            "ecmwf_ifs025": 10.6,
+            "ecmwf_ifs025": 10.0,
             "gfs_seamless": 7.1
           }
         },
         {
-          "time": "2026-10-07T22:00",
-          "speed": 8.2,
-          "gust": 24.1,
-          "dir": 214,
+          "time": "2026-10-07T21:00",
+          "speed": 6.8,
+          "gust": 21.2,
+          "dir": 216,
           "models": {
-            "ncep_hrrr_conus": 8.2,
-            "ecmwf_ifs025": 10.3,
-            "gfs_seamless": 8.2
+            "ncep_hrrr_conus": 6.8,
+            "ecmwf_ifs025": 9.5,
+            "gfs_seamless": 6.8
+          }
+        },
+        {
+          "time": "2026-10-07T22:00",
+          "speed": 8.6,
+          "gust": 24.3,
+          "dir": 218,
+          "models": {
+            "ncep_hrrr_conus": 8.6,
+            "ecmwf_ifs025": 8.9,
+            "gfs_seamless": 8.6
           }
         },
         {
           "time": "2026-10-07T23:00",
-          "speed": 8.1,
+          "speed": 7.7,
           "gust": 23.7,
-          "dir": 213,
+          "dir": 217,
           "models": {
-            "ncep_hrrr_conus": 8.1,
-            "ecmwf_ifs025": 9.9,
-            "gfs_seamless": 8.1
+            "ncep_hrrr_conus": 7.7,
+            "ecmwf_ifs025": 8.7,
+            "gfs_seamless": 7.7
           }
         }
       ],
       "summary": {
         "avg_speed": 6.8,
-        "max_gust": 18.1,
-        "dir_start": 199,
-        "dir_end": 208,
-        "veer": 9,
+        "max_gust": 21.6,
+        "dir_start": 208,
+        "dir_end": 214,
+        "veer": 6,
         "model_avgs": {
           "ncep_hrrr_conus": 6.8,
-          "ecmwf_ifs025": 9.0,
+          "ecmwf_ifs025": 10.3,
           "gfs_seamless": 6.8
         },
-        "spread": 2.2
+        "spread": 3.5
       }
     },
     {
@@ -2387,7 +2369,7 @@
           "dir": 341,
           "models": {
             "ncep_hrrr_conus": 4.0,
-            "ecmwf_ifs025": 2.2,
+            "ecmwf_ifs025": 2.0,
             "gfs_seamless": 4.0
           }
         },
@@ -2409,7 +2391,7 @@
           "dir": 16,
           "models": {
             "ncep_hrrr_conus": 3.3,
-            "ecmwf_ifs025": 1.2,
+            "ecmwf_ifs025": 1.4,
             "gfs_seamless": 3.3
           }
         },
@@ -2420,7 +2402,7 @@
           "dir": 53,
           "models": {
             "ncep_hrrr_conus": 3.6,
-            "ecmwf_ifs025": 1.0,
+            "ecmwf_ifs025": 1.6,
             "gfs_seamless": 3.6
           }
         },
@@ -2431,7 +2413,7 @@
           "dir": 77,
           "models": {
             "ncep_hrrr_conus": 1.6,
-            "ecmwf_ifs025": 0.6,
+            "ecmwf_ifs025": 1.3,
             "gfs_seamless": 1.6
           }
         },
@@ -2442,7 +2424,7 @@
           "dir": 114,
           "models": {
             "ncep_hrrr_conus": 1.4,
-            "ecmwf_ifs025": 2.0,
+            "ecmwf_ifs025": 1.1,
             "gfs_seamless": 1.4
           }
         },
@@ -2453,7 +2435,7 @@
           "dir": 203,
           "models": {
             "ncep_hrrr_conus": 4.7,
-            "ecmwf_ifs025": 4.4,
+            "ecmwf_ifs025": 3.2,
             "gfs_seamless": 4.7
           }
         },
@@ -2464,155 +2446,155 @@
           "dir": 210,
           "models": {
             "ncep_hrrr_conus": 5.6,
-            "ecmwf_ifs025": 6.6,
+            "ecmwf_ifs025": 5.3,
             "gfs_seamless": 5.6
           }
         },
         {
           "time": "2026-10-07T12:00",
-          "speed": 4.5,
-          "gust": 10.7,
-          "dir": 231,
+          "speed": 7.6,
+          "gust": 11.3,
+          "dir": 192,
           "models": {
-            "ncep_hrrr_conus": 4.5,
-            "ecmwf_ifs025": 8.2,
-            "gfs_seamless": 4.5
+            "ncep_hrrr_conus": 7.6,
+            "ecmwf_ifs025": 7.1,
+            "gfs_seamless": 7.6
           }
         },
         {
           "time": "2026-10-07T13:00",
-          "speed": 6.6,
-          "gust": 10.7,
-          "dir": 215,
+          "speed": 8.6,
+          "gust": 11.3,
+          "dir": 198,
           "models": {
-            "ncep_hrrr_conus": 6.6,
-            "ecmwf_ifs025": 9.6,
-            "gfs_seamless": 6.6
+            "ncep_hrrr_conus": 8.6,
+            "ecmwf_ifs025": 8.6,
+            "gfs_seamless": 8.6
           }
         },
         {
           "time": "2026-10-07T14:00",
-          "speed": 8.8,
-          "gust": 11.9,
-          "dir": 209,
+          "speed": 9.3,
+          "gust": 12.8,
+          "dir": 206,
           "models": {
-            "ncep_hrrr_conus": 8.8,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 8.8
+            "ncep_hrrr_conus": 9.3,
+            "ecmwf_ifs025": 9.8,
+            "gfs_seamless": 9.3
           }
         },
         {
           "time": "2026-10-07T15:00",
-          "speed": 10.2,
-          "gust": 13.8,
-          "dir": 211,
+          "speed": 11.0,
+          "gust": 15.0,
+          "dir": 205,
           "models": {
-            "ncep_hrrr_conus": 10.2,
-            "ecmwf_ifs025": 10.7,
-            "gfs_seamless": 10.2
+            "ncep_hrrr_conus": 11.0,
+            "ecmwf_ifs025": 10.4,
+            "gfs_seamless": 11.0
           }
         },
         {
           "time": "2026-10-07T16:00",
-          "speed": 10.6,
-          "gust": 15.7,
-          "dir": 205,
+          "speed": 11.8,
+          "gust": 16.5,
+          "dir": 211,
           "models": {
-            "ncep_hrrr_conus": 10.6,
+            "ncep_hrrr_conus": 11.8,
             "ecmwf_ifs025": 10.5,
-            "gfs_seamless": 10.6
+            "gfs_seamless": 11.8
           }
         },
         {
           "time": "2026-10-07T17:00",
-          "speed": 11.4,
-          "gust": 18.3,
-          "dir": 210,
+          "speed": 10.9,
+          "gust": 15.9,
+          "dir": 208,
           "models": {
-            "ncep_hrrr_conus": 11.4,
-            "ecmwf_ifs025": 10.4,
-            "gfs_seamless": 11.4
+            "ncep_hrrr_conus": 10.9,
+            "ecmwf_ifs025": 10.6,
+            "gfs_seamless": 10.9
           }
         },
         {
           "time": "2026-10-07T18:00",
-          "speed": 11.6,
+          "speed": 11.8,
           "gust": 19.0,
-          "dir": 211,
+          "dir": 210,
           "models": {
-            "ncep_hrrr_conus": 11.6,
-            "ecmwf_ifs025": 10.6,
-            "gfs_seamless": 11.6
+            "ncep_hrrr_conus": 11.8,
+            "ecmwf_ifs025": 10.5,
+            "gfs_seamless": 11.8
           }
         },
         {
           "time": "2026-10-07T19:00",
-          "speed": 12.9,
-          "gust": 21.2,
-          "dir": 215,
+          "speed": 12.6,
+          "gust": 21.8,
+          "dir": 211,
           "models": {
-            "ncep_hrrr_conus": 12.9,
-            "ecmwf_ifs025": 10.9,
-            "gfs_seamless": 12.9
+            "ncep_hrrr_conus": 12.6,
+            "ecmwf_ifs025": 10.3,
+            "gfs_seamless": 12.6
           }
         },
         {
           "time": "2026-10-07T20:00",
-          "speed": 12.5,
-          "gust": 22.4,
-          "dir": 215,
-          "models": {
-            "ncep_hrrr_conus": 12.5,
-            "ecmwf_ifs025": 11.1,
-            "gfs_seamless": 12.5
-          }
-        },
-        {
-          "time": "2026-10-07T21:00",
           "speed": 13.5,
-          "gust": 23.1,
+          "gust": 22.5,
           "dir": 214,
           "models": {
             "ncep_hrrr_conus": 13.5,
-            "ecmwf_ifs025": 10.6,
+            "ecmwf_ifs025": 10.0,
             "gfs_seamless": 13.5
           }
         },
         {
-          "time": "2026-10-07T22:00",
-          "speed": 14.5,
-          "gust": 24.7,
-          "dir": 214,
+          "time": "2026-10-07T21:00",
+          "speed": 12.7,
+          "gust": 20.4,
+          "dir": 217,
           "models": {
-            "ncep_hrrr_conus": 14.5,
-            "ecmwf_ifs025": 10.3,
-            "gfs_seamless": 14.5
+            "ncep_hrrr_conus": 12.7,
+            "ecmwf_ifs025": 9.5,
+            "gfs_seamless": 12.7
+          }
+        },
+        {
+          "time": "2026-10-07T22:00",
+          "speed": 13.8,
+          "gust": 22.4,
+          "dir": 216,
+          "models": {
+            "ncep_hrrr_conus": 13.8,
+            "ecmwf_ifs025": 8.9,
+            "gfs_seamless": 13.8
           }
         },
         {
           "time": "2026-10-07T23:00",
-          "speed": 13.9,
-          "gust": 24.5,
-          "dir": 214,
+          "speed": 13.1,
+          "gust": 23.9,
+          "dir": 217,
           "models": {
-            "ncep_hrrr_conus": 13.9,
-            "ecmwf_ifs025": 9.9,
-            "gfs_seamless": 13.9
+            "ncep_hrrr_conus": 13.1,
+            "ecmwf_ifs025": 8.7,
+            "gfs_seamless": 13.1
           }
         }
       ],
       "summary": {
-        "avg_speed": 8.2,
-        "max_gust": 19.0,
-        "dir_start": 203,
-        "dir_end": 211,
-        "veer": 8,
+        "avg_speed": 12.6,
+        "max_gust": 22.5,
+        "dir_start": 210,
+        "dir_end": 214,
+        "veer": 4,
         "model_avgs": {
-          "ncep_hrrr_conus": 8.2,
-          "ecmwf_ifs025": 9.0,
-          "gfs_seamless": 8.2
+          "ncep_hrrr_conus": 12.6,
+          "ecmwf_ifs025": 10.3,
+          "gfs_seamless": 12.6
         },
-        "spread": 0.8
+        "spread": 2.3
       }
     }
   ],
@@ -3576,13 +3558,279 @@
           "gust": 14.77,
           "dir": 211.0,
           "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 13:36",
+          "speed": 10.69,
+          "gust": 13.8,
+          "dir": 211.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 13:42",
+          "speed": 11.08,
+          "gust": 13.22,
+          "dir": 201.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 13:48",
+          "speed": 11.08,
+          "gust": 14.97,
+          "dir": 210.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 13:54",
+          "speed": 11.27,
+          "gust": 13.41,
+          "dir": 209.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 14:00",
+          "speed": 11.27,
+          "gust": 14.0,
+          "dir": 214.0,
+          "dir_txt": "SW"
+        },
+        {
+          "time": "2026-10-07 14:06",
+          "speed": 12.64,
+          "gust": 14.58,
+          "dir": 202.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 14:12",
+          "speed": 11.47,
+          "gust": 14.77,
+          "dir": 210.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 14:18",
+          "speed": 10.5,
+          "gust": 14.38,
+          "dir": 206.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 14:24",
+          "speed": 11.27,
+          "gust": 14.58,
+          "dir": 206.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 14:30",
+          "speed": 12.44,
+          "gust": 14.19,
+          "dir": 210.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 14:36",
+          "speed": 12.44,
+          "gust": 14.97,
+          "dir": 210.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 14:42",
+          "speed": 12.64,
+          "gust": 16.13,
+          "dir": 210.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 14:48",
+          "speed": 13.22,
+          "gust": 16.72,
+          "dir": 214.0,
+          "dir_txt": "SW"
+        },
+        {
+          "time": "2026-10-07 14:54",
+          "speed": 13.02,
+          "gust": 15.94,
+          "dir": 203.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:00",
+          "speed": 14.38,
+          "gust": 15.94,
+          "dir": 207.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:06",
+          "speed": 11.66,
+          "gust": 16.13,
+          "dir": 206.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:12",
+          "speed": 13.02,
+          "gust": 16.72,
+          "dir": 210.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:18",
+          "speed": 13.22,
+          "gust": 16.91,
+          "dir": 206.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:24",
+          "speed": 11.86,
+          "gust": 15.94,
+          "dir": 210.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:30",
+          "speed": 13.41,
+          "gust": 16.33,
+          "dir": 202.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:36",
+          "speed": 13.8,
+          "gust": 17.3,
+          "dir": 210.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:42",
+          "speed": 12.44,
+          "gust": 16.91,
+          "dir": 213.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:48",
+          "speed": 13.8,
+          "gust": 14.38,
+          "dir": 209.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 15:54",
+          "speed": 14.77,
+          "gust": 17.49,
+          "dir": 214.0,
+          "dir_txt": "SW"
+        },
+        {
+          "time": "2026-10-07 16:00",
+          "speed": 12.83,
+          "gust": 17.11,
+          "dir": 206.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 16:06",
+          "speed": 13.61,
+          "gust": 16.13,
+          "dir": 220.0,
+          "dir_txt": "SW"
+        },
+        {
+          "time": "2026-10-07 16:12",
+          "speed": 14.58,
+          "gust": 17.88,
+          "dir": 199.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 16:18",
+          "speed": 14.19,
+          "gust": 17.88,
+          "dir": 195.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 16:24",
+          "speed": 13.61,
+          "gust": 15.36,
+          "dir": 205.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 16:30",
+          "speed": 15.55,
+          "gust": 17.69,
+          "dir": 200.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 16:36",
+          "speed": 12.25,
+          "gust": 17.88,
+          "dir": 203.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 16:42",
+          "speed": 13.22,
+          "gust": 17.11,
+          "dir": 199.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 16:48",
+          "speed": 13.8,
+          "gust": 18.47,
+          "dir": 204.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 16:54",
+          "speed": 15.94,
+          "gust": 17.88,
+          "dir": 213.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 17:00",
+          "speed": 14.19,
+          "gust": 19.83,
+          "dir": 213.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 17:06",
+          "speed": 14.77,
+          "gust": 18.66,
+          "dir": 204.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 17:12",
+          "speed": 15.75,
+          "gust": 18.08,
+          "dir": 211.0,
+          "dir_txt": "SSW"
+        },
+        {
+          "time": "2026-10-07 17:18",
+          "speed": 13.02,
+          "gust": 19.44,
+          "dir": 213.0,
+          "dir_txt": "SSW"
         }
       ],
       "latest": {
-        "time": "2026-10-07 13:30",
-        "speed": 11.47,
-        "gust": 14.77,
-        "dir": 211.0,
+        "time": "2026-10-07 17:18",
+        "speed": 13.02,
+        "gust": 19.44,
+        "dir": 213.0,
         "dir_txt": "SSW"
       }
     },
@@ -4545,14 +4793,280 @@
           "gust": 15.94,
           "dir": 176.0,
           "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 13:36",
+          "speed": 14.38,
+          "gust": 17.88,
+          "dir": 178.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 13:42",
+          "speed": 14.38,
+          "gust": 16.72,
+          "dir": 178.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 13:48",
+          "speed": 15.55,
+          "gust": 17.3,
+          "dir": 177.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 13:54",
+          "speed": 13.41,
+          "gust": 16.72,
+          "dir": 180.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 14:00",
+          "speed": 14.38,
+          "gust": 15.55,
+          "dir": 181.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 14:06",
+          "speed": 13.02,
+          "gust": 15.55,
+          "dir": 180.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 14:12",
+          "speed": 13.8,
+          "gust": 15.75,
+          "dir": 175.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 14:18",
+          "speed": 13.22,
+          "gust": 14.97,
+          "dir": 168.0,
+          "dir_txt": "SSE"
+        },
+        {
+          "time": "2026-10-07 14:24",
+          "speed": 14.97,
+          "gust": 16.72,
+          "dir": 175.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 14:30",
+          "speed": 15.16,
+          "gust": 16.72,
+          "dir": 168.0,
+          "dir_txt": "SSE"
+        },
+        {
+          "time": "2026-10-07 14:36",
+          "speed": 15.36,
+          "gust": 17.69,
+          "dir": 172.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 14:42",
+          "speed": 15.55,
+          "gust": 17.69,
+          "dir": 172.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 14:48",
+          "speed": 16.52,
+          "gust": 18.47,
+          "dir": 171.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 14:54",
+          "speed": 16.72,
+          "gust": 19.83,
+          "dir": 179.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:00",
+          "speed": 16.13,
+          "gust": 18.47,
+          "dir": 178.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:06",
+          "speed": 17.11,
+          "gust": 19.05,
+          "dir": 181.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:12",
+          "speed": 15.55,
+          "gust": 17.3,
+          "dir": 178.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:18",
+          "speed": 18.08,
+          "gust": 20.02,
+          "dir": 175.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:24",
+          "speed": 18.08,
+          "gust": 19.63,
+          "dir": 181.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:30",
+          "speed": 16.52,
+          "gust": 20.41,
+          "dir": 174.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:36",
+          "speed": 18.27,
+          "gust": 20.6,
+          "dir": 172.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:42",
+          "speed": 16.91,
+          "gust": 19.44,
+          "dir": 177.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:48",
+          "speed": 16.72,
+          "gust": 20.41,
+          "dir": 188.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 15:54",
+          "speed": 18.86,
+          "gust": 20.8,
+          "dir": 189.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:00",
+          "speed": 16.72,
+          "gust": 20.6,
+          "dir": 179.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:06",
+          "speed": 19.05,
+          "gust": 21.58,
+          "dir": 174.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:12",
+          "speed": 17.3,
+          "gust": 21.19,
+          "dir": 185.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:18",
+          "speed": 17.69,
+          "gust": 20.41,
+          "dir": 181.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:24",
+          "speed": 17.69,
+          "gust": 20.22,
+          "dir": 183.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:30",
+          "speed": 18.08,
+          "gust": 20.8,
+          "dir": 182.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:36",
+          "speed": 19.05,
+          "gust": 21.97,
+          "dir": 179.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:42",
+          "speed": 17.88,
+          "gust": 20.22,
+          "dir": 185.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:48",
+          "speed": 20.22,
+          "gust": 22.55,
+          "dir": 187.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 16:54",
+          "speed": 19.24,
+          "gust": 22.35,
+          "dir": 183.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 17:00",
+          "speed": 19.63,
+          "gust": 21.77,
+          "dir": 187.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 17:06",
+          "speed": 18.27,
+          "gust": 21.19,
+          "dir": 186.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 17:12",
+          "speed": 19.24,
+          "gust": 20.99,
+          "dir": 187.0,
+          "dir_txt": "S"
+        },
+        {
+          "time": "2026-10-07 17:18",
+          "speed": 16.13,
+          "gust": 20.22,
+          "dir": 196.0,
+          "dir_txt": "SSW"
         }
       ],
       "latest": {
-        "time": "2026-10-07 13:30",
-        "speed": 13.8,
-        "gust": 15.94,
-        "dir": 176.0,
-        "dir_txt": "S"
+        "time": "2026-10-07 17:18",
+        "speed": 16.13,
+        "gust": 20.22,
+        "dir": 196.0,
+        "dir_txt": "SSW"
       }
     }
   ],
@@ -4562,69 +5076,69 @@
     "note": "What's arriving from the south / open-ocean context.",
     "latest": null,
     "latest_any": {
-      "time": "2026-10-07 17:00 UTC",
+      "time": "2026-10-07 21:00 UTC",
       "dir": null,
       "speed": null,
       "gust": null,
-      "wave_dir": 132.0
+      "wave_dir": 142.0
     },
     "wind_available": false,
     "recent": [
       {
-        "time": "2026-10-07 17:00 UTC",
+        "time": "2026-10-07 21:00 UTC",
+        "dir": null,
+        "speed": null,
+        "gust": null,
+        "wave_dir": 142.0
+      },
+      {
+        "time": "2026-10-07 20:30 UTC",
         "dir": null,
         "speed": null,
         "gust": null,
         "wave_dir": 132.0
       },
       {
-        "time": "2026-10-07 16:30 UTC",
+        "time": "2026-10-07 20:00 UTC",
         "dir": null,
         "speed": null,
         "gust": null,
-        "wave_dir": 231.0
+        "wave_dir": 133.0
       },
       {
-        "time": "2026-10-07 16:00 UTC",
+        "time": "2026-10-07 19:30 UTC",
         "dir": null,
         "speed": null,
         "gust": null,
-        "wave_dir": 258.0
+        "wave_dir": 139.0
       },
       {
-        "time": "2026-10-07 15:30 UTC",
+        "time": "2026-10-07 19:00 UTC",
         "dir": null,
         "speed": null,
         "gust": null,
-        "wave_dir": 237.0
+        "wave_dir": 128.0
       },
       {
-        "time": "2026-10-07 15:00 UTC",
+        "time": "2026-10-07 18:30 UTC",
         "dir": null,
         "speed": null,
         "gust": null,
-        "wave_dir": 274.0
+        "wave_dir": 136.0
       },
       {
-        "time": "2026-10-07 14:30 UTC",
+        "time": "2026-10-07 18:00 UTC",
         "dir": null,
         "speed": null,
         "gust": null,
-        "wave_dir": 253.0
+        "wave_dir": 145.0
       },
       {
-        "time": "2026-10-07 14:00 UTC",
+        "time": "2026-10-07 17:30 UTC",
         "dir": null,
         "speed": null,
         "gust": null,
-        "wave_dir": 257.0
-      },
-      {
-        "time": "2026-10-07 13:30 UTC",
-        "dir": null,
-        "speed": null,
-        "gust": null,
-        "wave_dir": 270.0
+        "wave_dir": 136.0
       }
     ]
   },
@@ -4643,11 +5157,15 @@
       "10",
       "11",
       "12",
-      "13"
+      "13",
+      "14",
+      "15",
+      "16",
+      "17"
     ],
-    "obs_mean_kt": 4.4,
-    "model_mean_kt": 4.5,
-    "ratio": 1.0,
+    "obs_mean_kt": 6.5,
+    "model_mean_kt": 5.9,
+    "ratio": 1.1,
     "note": "obs and model broadly agree"
   },
   "nws": {
@@ -4655,114 +5173,6 @@
     "hourly": [
       {
         "number": 1,
-        "name": "",
-        "startTime": "2026-10-07T13:00:00-04:00",
-        "endTime": "2026-10-07T14:00:00-04:00",
-        "isDaytime": true,
-        "temperature": 60,
-        "temperatureUnit": "F",
-        "temperatureTrend": null,
-        "probabilityOfPrecipitation": {
-          "unitCode": "wmoUnit:percent",
-          "value": 0
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 5.555555555555555
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 51
-        },
-        "windSpeed": "12 mph",
-        "windDirection": "SW",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=small",
-        "shortForecast": "Sunny",
-        "detailedForecast": ""
-      },
-      {
-        "number": 2,
-        "name": "",
-        "startTime": "2026-10-07T14:00:00-04:00",
-        "endTime": "2026-10-07T15:00:00-04:00",
-        "isDaytime": true,
-        "temperature": 61,
-        "temperatureUnit": "F",
-        "temperatureTrend": null,
-        "probabilityOfPrecipitation": {
-          "unitCode": "wmoUnit:percent",
-          "value": 0
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 6.666666666666667
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 53
-        },
-        "windSpeed": "13 mph",
-        "windDirection": "SW",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=small",
-        "shortForecast": "Sunny",
-        "detailedForecast": ""
-      },
-      {
-        "number": 3,
-        "name": "",
-        "startTime": "2026-10-07T15:00:00-04:00",
-        "endTime": "2026-10-07T16:00:00-04:00",
-        "isDaytime": true,
-        "temperature": 61,
-        "temperatureUnit": "F",
-        "temperatureTrend": null,
-        "probabilityOfPrecipitation": {
-          "unitCode": "wmoUnit:percent",
-          "value": 0
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 7.222222222222222
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 56
-        },
-        "windSpeed": "13 mph",
-        "windDirection": "SW",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=small",
-        "shortForecast": "Sunny",
-        "detailedForecast": ""
-      },
-      {
-        "number": 4,
-        "name": "",
-        "startTime": "2026-10-07T16:00:00-04:00",
-        "endTime": "2026-10-07T17:00:00-04:00",
-        "isDaytime": true,
-        "temperature": 61,
-        "temperatureUnit": "F",
-        "temperatureTrend": null,
-        "probabilityOfPrecipitation": {
-          "unitCode": "wmoUnit:percent",
-          "value": 0
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 7.777777777777778
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 58
-        },
-        "windSpeed": "14 mph",
-        "windDirection": "SW",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=small",
-        "shortForecast": "Sunny",
-        "detailedForecast": ""
-      },
-      {
-        "number": 5,
         "name": "",
         "startTime": "2026-10-07T17:00:00-04:00",
         "endTime": "2026-10-07T18:00:00-04:00",
@@ -4789,7 +5199,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 6,
+        "number": 2,
         "name": "",
         "startTime": "2026-10-07T18:00:00-04:00",
         "endTime": "2026-10-07T19:00:00-04:00",
@@ -4816,7 +5226,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 7,
+        "number": 3,
         "name": "",
         "startTime": "2026-10-07T19:00:00-04:00",
         "endTime": "2026-10-07T20:00:00-04:00",
@@ -4843,7 +5253,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 8,
+        "number": 4,
         "name": "",
         "startTime": "2026-10-07T20:00:00-04:00",
         "endTime": "2026-10-07T21:00:00-04:00",
@@ -4870,7 +5280,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 9,
+        "number": 5,
         "name": "",
         "startTime": "2026-10-07T21:00:00-04:00",
         "endTime": "2026-10-07T22:00:00-04:00",
@@ -4897,7 +5307,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 10,
+        "number": 6,
         "name": "",
         "startTime": "2026-10-07T22:00:00-04:00",
         "endTime": "2026-10-07T23:00:00-04:00",
@@ -4924,7 +5334,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 11,
+        "number": 7,
         "name": "",
         "startTime": "2026-10-07T23:00:00-04:00",
         "endTime": "2026-10-08T00:00:00-04:00",
@@ -4951,7 +5361,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 12,
+        "number": 8,
         "name": "",
         "startTime": "2026-10-08T00:00:00-04:00",
         "endTime": "2026-10-08T01:00:00-04:00",
@@ -4978,7 +5388,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 13,
+        "number": 9,
         "name": "",
         "startTime": "2026-10-08T01:00:00-04:00",
         "endTime": "2026-10-08T02:00:00-04:00",
@@ -5005,7 +5415,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 14,
+        "number": 10,
         "name": "",
         "startTime": "2026-10-08T02:00:00-04:00",
         "endTime": "2026-10-08T03:00:00-04:00",
@@ -5032,7 +5442,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 15,
+        "number": 11,
         "name": "",
         "startTime": "2026-10-08T03:00:00-04:00",
         "endTime": "2026-10-08T04:00:00-04:00",
@@ -5059,7 +5469,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 16,
+        "number": 12,
         "name": "",
         "startTime": "2026-10-08T04:00:00-04:00",
         "endTime": "2026-10-08T05:00:00-04:00",
@@ -5086,7 +5496,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 17,
+        "number": 13,
         "name": "",
         "startTime": "2026-10-08T05:00:00-04:00",
         "endTime": "2026-10-08T06:00:00-04:00",
@@ -5113,7 +5523,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 18,
+        "number": 14,
         "name": "",
         "startTime": "2026-10-08T06:00:00-04:00",
         "endTime": "2026-10-08T07:00:00-04:00",
@@ -5140,7 +5550,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 19,
+        "number": 15,
         "name": "",
         "startTime": "2026-10-08T07:00:00-04:00",
         "endTime": "2026-10-08T08:00:00-04:00",
@@ -5162,12 +5572,12 @@
         },
         "windSpeed": "13 mph",
         "windDirection": "SW",
-        "icon": "https://api.weather.gov/icons/land/day/few?size=small",
-        "shortForecast": "Sunny",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=small",
+        "shortForecast": "Mostly Sunny",
         "detailedForecast": ""
       },
       {
-        "number": 20,
+        "number": 16,
         "name": "",
         "startTime": "2026-10-08T08:00:00-04:00",
         "endTime": "2026-10-08T09:00:00-04:00",
@@ -5194,7 +5604,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 21,
+        "number": 17,
         "name": "",
         "startTime": "2026-10-08T09:00:00-04:00",
         "endTime": "2026-10-08T10:00:00-04:00",
@@ -5221,7 +5631,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 22,
+        "number": 18,
         "name": "",
         "startTime": "2026-10-08T10:00:00-04:00",
         "endTime": "2026-10-08T11:00:00-04:00",
@@ -5248,7 +5658,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 23,
+        "number": 19,
         "name": "",
         "startTime": "2026-10-08T11:00:00-04:00",
         "endTime": "2026-10-08T12:00:00-04:00",
@@ -5275,7 +5685,7 @@
         "detailedForecast": ""
       },
       {
-        "number": 24,
+        "number": 20,
         "name": "",
         "startTime": "2026-10-08T12:00:00-04:00",
         "endTime": "2026-10-08T13:00:00-04:00",
@@ -5300,28 +5710,136 @@
         "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=small",
         "shortForecast": "Slight Chance Rain Showers",
         "detailedForecast": ""
+      },
+      {
+        "number": 21,
+        "name": "",
+        "startTime": "2026-10-08T13:00:00-04:00",
+        "endTime": "2026-10-08T14:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 68,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 18
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 13.88888888888889
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 68
+        },
+        "windSpeed": "13 mph",
+        "windDirection": "SW",
+        "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=small",
+        "shortForecast": "Slight Chance Rain Showers",
+        "detailedForecast": ""
+      },
+      {
+        "number": 22,
+        "name": "",
+        "startTime": "2026-10-08T14:00:00-04:00",
+        "endTime": "2026-10-08T15:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 69,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 18
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 13.333333333333334
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 63
+        },
+        "windSpeed": "12 mph",
+        "windDirection": "SW",
+        "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=small",
+        "shortForecast": "Slight Chance Rain Showers",
+        "detailedForecast": ""
+      },
+      {
+        "number": 23,
+        "name": "",
+        "startTime": "2026-10-08T15:00:00-04:00",
+        "endTime": "2026-10-08T16:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 69,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 18
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 12.222222222222221
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 59
+        },
+        "windSpeed": "12 mph",
+        "windDirection": "W",
+        "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=small",
+        "shortForecast": "Slight Chance Rain Showers",
+        "detailedForecast": ""
+      },
+      {
+        "number": 24,
+        "name": "",
+        "startTime": "2026-10-08T16:00:00-04:00",
+        "endTime": "2026-10-08T17:00:00-04:00",
+        "isDaytime": true,
+        "temperature": 69,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "probabilityOfPrecipitation": {
+          "unitCode": "wmoUnit:percent",
+          "value": 17
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 11.11111111111111
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 55
+        },
+        "windSpeed": "10 mph",
+        "windDirection": "W",
+        "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=small",
+        "shortForecast": "Slight Chance Rain Showers",
+        "detailedForecast": ""
       }
     ],
     "marine": [
       {
         "number": 1,
-        "name": "This Afternoon",
-        "detailedForecast": "SW winds 10 to 15 kt with gusts up to 20 kt. Waves 2 to 3 ft."
-      },
-      {
-        "number": 2,
         "name": "Tonight",
         "detailedForecast": "SW winds 10 to 15 kt with gusts up to 25 kt. Waves 2 to 3 ft."
       },
       {
-        "number": 3,
+        "number": 2,
         "name": "Thu",
         "detailedForecast": "SW winds 10 to 15 kt with gusts up to 25 kt. Waves 2 to 3 ft."
       },
       {
-        "number": 4,
+        "number": 3,
         "name": "Thu Night",
         "detailedForecast": "W winds 5 to 10 kt. Waves around 2 ft."
+      },
+      {
+        "number": 4,
+        "name": "Fri",
+        "detailedForecast": "W winds 5 to 10 kt, increasing to 10 to 15 kt with gusts up to 20 kt in the afternoon. Waves around 2 ft."
       }
     ]
   }
